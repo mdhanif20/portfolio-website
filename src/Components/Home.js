@@ -4,6 +4,7 @@ import Navbar from './Navbar';
 import Project from './Project';
 import Slider from './Slider';
 
+
 const Home = () => {
     return (
         <div>
