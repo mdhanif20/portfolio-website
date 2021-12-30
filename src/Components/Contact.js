@@ -7,12 +7,6 @@ import EmailIcon from '@mui/icons-material/Email';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import TwitterIcon from '@mui/icons-material/Twitter';
-import { blue, indigo, pink } from '@mui/material/colors';
-import Input from '@mui/material/Input';
-import TextField from '@mui/material/TextField';
-import { width } from '@mui/system';
-import TextareaAutosize from '@mui/material/TextareaAutosize';
-import SendIcon from '@mui/icons-material/Send';
 import EmailForm from './EmailForm';
 
 const useStyle = makeStyles({
@@ -65,63 +59,25 @@ const Contact = () => {
                                 Address: Kanchannagar, Chandanish, Chittagong, Bangladesh        
                             </Typography>
                             <span>
-                                <Button href="#" target="_blank"><EmailIcon sx={{ color: "#CE4B3E", fontSize:"30px" }}/></Button>
+                                <Button href="#" sx={{ position: "revert"}} target="_blank"><EmailIcon sx={{ color: "#CE4B3E", fontSize:"30px" }}/></Button>
 
-                                <Button href="https://www.facebook.com/profile.php?id=100055606685759" target="_blank">
+                                <Button href="https://www.facebook.com/profile.php?id=100055606685759" sx={{ position: "revert"}} target="_blank">
                                 <FacebookIcon sx={{color: "#4064AC", fontSize:"30px" }}/>
                                 </Button>
 
-                                <Button href="https://www.facebook.com/profile.php?id=100055606685759" target="_blank">
-                                <TwitterIcon sx={{color: "#1C9CEA", fontSize:"30px" }}/>
+                                <Button href="https://www.facebook.com/profile.php?id=100055606685759" sx={{ position: "revert"}} target="_blank">
+                                <TwitterIcon sx={{color: "#1C9CEA", fontSize:"30px", position: "revert" }}/>
                                 </Button>
 
-                                <Button href="https://www.linkedin.com/in/mohammad-hanif-6a61b920b/" target="_blank">
+                                <Button href="https://www.linkedin.com/in/mohammad-hanif-6a61b920b/" sx={{ position: "revert"}} target="_blank">
                                 <LinkedInIcon sx={{color: "#0C61BF", fontSize:"30px",p:1 }}/>
                                 </Button>
                                 </span>
                            </Box>
                         </Grid>
-                        <Grid  xs={12} md={6}>
+                        <Grid sx={{p:2}} xs={12} md={6}>
                             <EmailForm></EmailForm>
-                         {/* <Box sx={{p:5}}>
-                         <Typography  component="div">
-                                Send Email       
-                            </Typography>
-                            <Typography>
-                            <TextField
-                            sx={{width:"85%",fontSize:"24px"}}
-                            id="standard-read-only-input"
-                            label="To"
-                            defaultValue="mdhanif115825@gmail.com"
-                            InputProps={{
-                                readOnly: true,
-                            }}
-                            variant="standard"
-                            />
-
-                             <TextField
-                             sx={{width:"85%",mt:2,mb:3}}
-                                id="standard-number"
-                                label="From"
-                                type="text"
-                                InputLabelProps={{
-                                    shrink: true,
-                                }}
-                                variant="standard"
-                                />
-
-                                <TextareaAutosize
-                                className={classes.emailTextarea}
-                                style={{width:"84%" }}
-                                aria-label="minimum height"
-                                minRows={7}
-                                placeholder="write your email..."                        
-                                />
-                                <Button variant="contained" endIcon={<SendIcon />}>
-                                        Send
-                                        </Button>
-                            </Typography>
-                         </Box> */}
+                         
                         </Grid>
                     
                 </Card>

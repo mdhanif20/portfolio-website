@@ -17,10 +17,10 @@ const useStyle = makeStyles({
         padding: "8px 5px",
         fontSize: "15px",
         margin: "10px 0px",
-        width: "50%"
+       width:"70%"
     },
     textArea:{
-        width: "80%",
+        width: "90%",
         padding: "5px",
         border: "2px solid gray",
         borderRadius: "5px",
@@ -43,12 +43,13 @@ const EmailForm = () => {
                 Send Email
             </Typography>
             <form action="" onSubmit={sendEmail}>
+                 <label className={classes.inputText} htmlFor="userEmail">From </label><br />
+                <input  type="text" className={classes.inputArea} placeholder='Your Email' name="customerEmail"/> <br />
                 <label className={classes.inputText} htmlFor="myEmail">To </label><br />
                 <input className={classes.inputArea} type="text" value='mdhanif115825@gmail.com' name="ownerEmail" /> <br />
-                <label className={classes.inputText} htmlFor="userEmail">From </label><br />
-                <input type="text" className={classes.inputArea} placeholder='Your Email' name="customerEmail"/> <br />
+               
                 <textarea name="message" className={classes.textArea} placeholder='Write email...' id="" width="100%" rows="7"></textarea> <br />
-                <Button type="submit" value="Send" variant="contained" endIcon={<SendIcon />}>
+                <Button sx={{position: "revert"}} type="submit" value="Send" variant="contained" endIcon={<SendIcon />}>
                   Send
                 </Button>
             </form>

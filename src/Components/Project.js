@@ -14,7 +14,6 @@ const useStyle = makeStyles({
     projectHeaderText:{
       textAlign: "center",
       paddingBottom: "60px",
-      paddingTop: "30px",
       fontSize: "35px",
       fontWeight: 600
     },
@@ -28,6 +27,7 @@ const useStyle = makeStyles({
         marginTop:"10px",
         color:"#1E2132",
         fontWeight: 800,
+        position: "revert",
         "&:hover":{
             transform: "scale(1.1)",
             backgroundColor: "#FE5200",
@@ -124,13 +124,13 @@ const ProjectAll = () => {
                 </Grid>
                 
                
-                <Grid xs={12} md={6} sx={{pb:12}}>   
+                <Grid xs={12} md={6} sx={{pb:3}}>   
                     <Box 
                     >
                     
                     <Box sx={{ textAlign: "center",
                                marginTop:{xs:"1vh",sm:"46vh"} }}>
-                        <Button variant="text"  endIcon={<ArrowForwardIosIcon/>} fontSize="small">
+                        <Button variant="text" sx={{ position: "revert"}}  endIcon={<ArrowForwardIosIcon/>} fontSize="small">
                             <Link className={classes.moreProjectLink} to="">See More Project </Link>
                         </Button>
                             

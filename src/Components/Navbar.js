@@ -112,6 +112,10 @@ const Navbar = () => {
 
               <Link to="/about"><Button  onClick={handleCloseNavMenu} sx={{ my: 2, color: 'white', display: 'block' }}>AboutMe</Button> </Link>
 
+              <Button  onClick={handleCloseNavMenu} sx={{ my: 2, color: 'white', display: 'block' }}>
+              <a style={{textDecoration:"none",color:"#fff"}} href="#contactArea">ContactMe</a>
+              </Button>
+
               <Button  onClick={handleCloseNavMenu} sx={{ my: 2, color: 'white', display: 'block' }}>Resume</Button> 
               <Button  onClick={handleCloseNavMenu} sx={{ my: 2, color: 'white', display: 'block' }}>Testimonial</Button> 
               <Button  onClick={handleCloseNavMenu} sx={{ my: 2, color: 'white', display: 'block' }}>ContactMe</Button> 

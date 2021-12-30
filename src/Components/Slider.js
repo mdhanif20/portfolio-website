@@ -15,6 +15,7 @@ const useStyle = makeStyles({
         fontWeight: 500,
         py:1,px:3, borderRadius: 20,
         transition: ".4s",
+        position: "revert",
         '&:hover': {
                     color:"#fff",
                     backgroundColor: '#CB0001',
@@ -26,15 +27,20 @@ const useStyle = makeStyles({
         boxShadow: 3,
      fontSize: "1.2rem",
      fontWeight: 500,
-     color:"#fff",
+     position: "revert",
      padding:"1px , 3px",
     borderRadius: 20,
      transition: ".4s",
+     
      '&:hover': {
         border: "2px solid #fff",
         borderColor:"#fff",
          backgroundColor: '#161824',
          transform: "scale(1.1)"
+    },
+    hiremeAncor:{
+        textDecoration:"none",
+        color:"#fff",
     }
 }})
 
@@ -86,9 +92,8 @@ const Slider = () => {
                             
                             <Button className={classes.hiremeButtom}
                             variant="outlined" to="#contactArea"> 
-                            <Link to="/contact"> 
-                                  Hire Me
-                                  </Link>
+                            <a style={{textDecoration:"none",color:"#fff"}} href="#contactArea">Hire Me</a>
+                            
                             </Button>
                               
                         </Stack>
@@ -110,7 +115,8 @@ const Slider = () => {
                     </Grid>
                     
                 </Container>
-                <img className='footerImg' style={{width:"100%",marginTop:"-150px",marginBottom:"-10px"}} src="https://i.ibb.co/Kbc0q6Z/sliderfooter.png" alt="" />
+                <img className='footerImg' style={{width:"100%",marginTop:"-80px",marginBottom:"-10px"}} src="https://i.ibb.co/db8JHYL/bestfooter.png" alt="" />
+                
         </Box>
         </Box>
         
