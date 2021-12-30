@@ -3,20 +3,52 @@ import React from 'react';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import SendIcon from '@mui/icons-material/Send';
+import { makeStyles } from '@mui/styles';
+import emailjs from 'emailjs-com';
+import Alert from '@mui/material/Alert';
+
+const useStyle = makeStyles({
+    inputText:{
+        fontSize:20
+    },
+    inputArea:{
+        border: "2px solid gray",
+        borderRadius: "20px",
+        padding: "8px 5px",
+        fontSize: "15px",
+        margin: "10px 0px",
+        width: "50%"
+    },
+    textArea:{
+        width: "80%",
+        padding: "5px",
+        border: "2px solid gray",
+        borderRadius: "5px",
+        margin: "15px 0px"
+    }
+})
 
 const EmailForm = () => {
+    const classes = useStyle();
+    const sendEmail = e =>{
+        e.preventDefault();
+        emailjs.sendForm('service_ys3v9za','template_1l0umhy',e.target,"user_WDClpve9lZTHJckbAFp3C").then(res=>{
+            alert("Email Send Successfully")
+            
+        }).catch(err => console.log(err));
+    }
     return (
         <Box>
              <Typography variant="h6" gutterBottom component="div">
                 Send Email
             </Typography>
-            <form action="">
-                <label htmlFor="myEmail">To</label>
-                <input type="text" value='mdhanif115825@gmail.com' />
-                <label htmlFor="cliendEmail">From</label>
-                <input type="text" placeholder='Your Email' />
-                <textarea name="" placeholder='Write email...' id="" cols="30" rows="10"></textarea>
-                <Button type="submit" variant="contained" endIcon={<SendIcon />}>
+            <form action="" onSubmit={sendEmail}>
+                <label className={classes.inputText} htmlFor="myEmail">To </label><br />
+                <input className={classes.inputArea} type="text" value='mdhanif115825@gmail.com' name="ownerEmail" /> <br />
+                <label className={classes.inputText} htmlFor="userEmail">From </label><br />
+                <input type="text" className={classes.inputArea} placeholder='Your Email' name="customerEmail"/> <br />
+                <textarea name="message" className={classes.textArea} placeholder='Write email...' id="" width="100%" rows="7"></textarea> <br />
+                <Button type="submit" value="Send" variant="contained" endIcon={<SendIcon />}>
                   Send
                 </Button>
             </form>
