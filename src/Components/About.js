@@ -22,7 +22,7 @@ const useStyle = makeStyles({
 const About = () => {
     const classes = useStyle();
     return (
-        <Container sx={{margin: "100px auto"}} id="contactArea">
+        <Container sx={{margin: "100px auto"}} id="about">
                  
             <Box>
                 <Card sx={{display:{xs:"grid",sm:"flex"}}}>

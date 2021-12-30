@@ -14,14 +14,14 @@ const useStyle = makeStyles({
     inputArea:{
         border: "2px solid gray",
         borderRadius: "20px",
-        padding: "8px 5px",
+        padding: "8px 15px",
         fontSize: "15px",
         margin: "10px 0px",
        width:"70%"
     },
     textArea:{
         width: "90%",
-        padding: "5px",
+        padding: "8px 15px",
         border: "2px solid gray",
         borderRadius: "5px",
         margin: "15px 0px"
@@ -38,13 +38,13 @@ const EmailForm = () => {
         }).catch(err => console.log(err));
     }
     return (
-        <Box>
+        <Box sx={{opacity:".9"}}>
              <Typography variant="h6" gutterBottom component="div">
                 Send Email
             </Typography>
             <form action="" onSubmit={sendEmail}>
                  <label className={classes.inputText} htmlFor="userEmail">From </label><br />
-                <input  type="text" className={classes.inputArea} placeholder='Your Email' name="customerEmail"/> <br />
+                <input type="text" className={classes.inputArea} placeholder='Your Email' name="customerEmail"/> <br />
                 <label className={classes.inputText} htmlFor="myEmail">To </label><br />
                 <input className={classes.inputArea} type="text" value='mdhanif115825@gmail.com' name="ownerEmail" /> <br />
                

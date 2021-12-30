@@ -22,12 +22,14 @@ const useStyle = makeStyles({
     },
     singleProjectButton:{
         fontSize: ".8rem",
-        backgroundColor: "transparent",
+        position: "revert",
+        backgroundColor: "#fffcfc",
+         opacity: .8,
         transition:".5s",
         marginTop:"10px",
         color:"#1E2132",
         fontWeight: 800,
-        position: "revert",
+        
         "&:hover":{
             transform: "scale(1.1)",
             backgroundColor: "#FE5200",
@@ -36,13 +38,21 @@ const useStyle = makeStyles({
     },
     seeMoreButtonBox:{      
         textAlign: "center",
-        marginTop: "46vh"
+        marginTop: "46vh",
+        color:"#000000"
     },
     moreProjectLink:{
-        color: "#4285F4",
+        color: "#1E2132",
         textDecoration: "none",
-        fontSize: "16px"
-    
+        fontSize: "16px",
+        fontWeight:"600",
+        opacity:".9"
+    },
+    projectDetails:{
+        marginRight: "50px",
+        position: "revert",
+        color:"#1E2132",
+        fontWeight: 600
     }
 
 })
@@ -75,7 +85,12 @@ const ProjectAll = () => {
                             <Button href="https://github.com/mdhanif20/travel-agency-website" target="_blank" className={classes.singleProjectButton} variant="contained">Server Side Code</Button>
                            
                         </Box>
-                    </Box>                 
+                        
+                    </Box> 
+                    <Typography sx={{textAlign:"end"}} variant="button" display="block" gutterBottom>
+                      <Button endIcon={<ArrowForwardIosIcon/>} className={classes.projectDetails} href="#text-buttons">See Project Details</Button>
+                    </Typography>
+                                    
                 </Grid>
                 
                
@@ -130,7 +145,7 @@ const ProjectAll = () => {
                     
                     <Box sx={{ textAlign: "center",
                                marginTop:{xs:"1vh",sm:"46vh"} }}>
-                        <Button variant="text" sx={{ position: "revert"}}  endIcon={<ArrowForwardIosIcon/>} fontSize="small">
+                        <Button variant="text" sx={{ position: "revert",color:"black"}}  endIcon={<ArrowForwardIosIcon/>} fontSize="small">
                             <Link className={classes.moreProjectLink} to="">See More Project </Link>
                         </Button>
                             
