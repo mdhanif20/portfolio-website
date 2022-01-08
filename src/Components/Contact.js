@@ -12,7 +12,6 @@ import EmailForm from './EmailForm';
 const useStyle = makeStyles({
     contactHeader:{
         textAlign: "center",
-        paddingBottom: "40px",
         paddingTop: "20px",
         fontSize: "35px",
         fontWeight: 600
@@ -26,7 +25,6 @@ const useStyle = makeStyles({
       },
       singleInfo:{
         fontSize: "22px",
-        opacity: ".7"
       },
       emailTextarea:{
         border: "2px solid gray",
@@ -38,7 +36,7 @@ const Contact = () => {
     const classes = useStyle();
     return (
         <Container id="contactArea">
-                 <Typography className={classes.contactHeader} variant="button" gutterBottom component="div">
+                 <Typography sx={{mb:{xs:0,md:4}}} className={classes.contactHeader} variant="button" gutterBottom component="div">
                     Contact <span className={classes.contactHeaderColor}>Me</span>
                 </Typography>
             <Box>

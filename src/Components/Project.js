@@ -23,11 +23,10 @@ const useStyle = makeStyles({
     singleProjectButton:{
         fontSize: ".8rem",
         position: "revert",
-        backgroundColor: "#fffcfc",
-         opacity: .8,
+        backgroundColor: "#1E2132",
         transition:".5s",
         marginTop:"10px",
-        color:"#1E2132",
+        color: "#fff",
         fontWeight: 800,
         
         "&:hover":{
@@ -46,7 +45,6 @@ const useStyle = makeStyles({
         textDecoration: "none",
         fontSize: "16px",
         fontWeight:"600",
-        opacity:".9"
     },
     projectDetails:{
         marginRight: "50px",

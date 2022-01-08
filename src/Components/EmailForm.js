@@ -20,7 +20,7 @@ const useStyle = makeStyles({
        width:"70%"
     },
     textArea:{
-        width: "90%",
+        width: "80%",
         padding: "8px 15px",
         border: "2px solid gray",
         borderRadius: "5px",
@@ -38,7 +38,7 @@ const EmailForm = () => {
         }).catch(err => console.log(err));
     }
     return (
-        <Box sx={{opacity:".9"}}>
+        <Box >
              <Typography variant="h6" gutterBottom component="div">
                 Send Email
             </Typography>

@@ -73,10 +73,10 @@ const Slider = () => {
                             </Box>                   
                         </Grid>
                         <Grid item sx={{color:"#fff",textAlign:"center"}} xs={12} md={6}>
-                        <Typography variant="h5" gutterBottom component="div" sx={{mt:{xs:0,sm:17}}}>
+                        <Typography variant="h5" gutterBottom component="div" sx={{fontSize:"30px",mt:{xs:0,sm:22}}}>
                             Hello,I'M Hanif
                         </Typography>
-                        <Typography variant="h5" gutterBottom component="div" sx={{pt:1}}>
+                        <Typography variant="h4" gutterBottom component="div" sx={{pt:1}}>
                             MERN Stack Devloper
                         </Typography>
                         <Typography variant="body2" gutterBottom component="div" sx={{pt:1,pb:2}}>
