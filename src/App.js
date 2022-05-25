@@ -18,8 +18,8 @@ function App() {
   return (
     <BrowserRouter>
     <Routes>
+      <Route path="/" element={<Slider  to="/home"/>} />
       <Route  path="/*" element={<Home  to="/home"/>} >
-         <Route path="*" element={<Slider  to="/home"/>} />
          <Route path="about" element={<About  to="/about"/>} />
          <Route path="services" element={<Services  to="/about"/>} />
          <Route path="contact" element={<Contact  to="/about"/>} />
