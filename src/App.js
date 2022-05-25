@@ -5,20 +5,23 @@ import {
   Route,
   Navigate
 } from "react-router-dom";
+import Home from './Pages/Home/Home';
+import About from './Pages/About/About';
+import Slider from './Pages/SliderNav/Slider';
+import Services from './Pages/Services/Services';
 
-import Home from './Components/Home';
 
-import Contact from './Components/Contact';
 
 function App() {
   return (
     <BrowserRouter>
     <Routes>
-      <Route path="/" element={<Home  to="/home"/>} />
-      <Route path="/home" element={<Home />} />
-     
-      <Route path="/contact" element={<Contact />} />
-      
+      <Route  path="/*" element={<Home  to="/home"/>} >
+         <Route path="*" element={<Slider  to="/home"/>} />
+         <Route path="about" element={<About  to="/about"/>} />
+         <Route path="services" element={<Services  to="/about"/>} />
+      </Route>
+      {/* <Route path="/contact" element={<Contact />} />  */}
     </Routes>
   </BrowserRouter>
   );
