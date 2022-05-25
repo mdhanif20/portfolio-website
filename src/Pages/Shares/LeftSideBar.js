@@ -131,10 +131,12 @@ const LeftSideBar = () => {
                         </Button> 
                     </div>   
                     <div className={classes.item}>
+                         <Link to="/contact" style={{textDecoration:"none"}}> 
                         <Button sx={{ color: 'white', display: 'flex',padding:"6px 0px" }}>
                         <ForumIcon  sx={{fontSize:"1.8rem"}}  className={classes.icon}/>
                         <span className={classes.text}>Contact</span>
                         </Button> 
+                        </Link>
                     </div>   
                 </Container>
             </Box>
@@ -163,8 +165,10 @@ const LeftSideBar = () => {
                         <Typography style={{fontWeight:400}}  className={classes.textSmall}>Resume</Typography>
                     </div>
                     <div className={classes.itemSmall}>
+                    <Link to="/contact" style={{textDecoration:"none"}}>  
                         <ForumIcon sx={{marginLeft:{xs:0,sm:"-14px",md:0}}} style={{fontSize:"30px"}}  className={classes.iconSmall}/>
                         <Typography style={{fontWeight:400}}  className={classes.textSmall}>Contact</Typography>
+                        </Link>
                     </div>
                 </Container>
             </Box>

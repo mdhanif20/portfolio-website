@@ -1,5 +1,5 @@
 import { Box } from '@mui/material';
-import React from 'react';
+import React, { useRef } from 'react';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import SendIcon from '@mui/icons-material/Send';
@@ -12,44 +12,91 @@ const useStyle = makeStyles({
         fontSize:20
     },
     inputArea:{
-        border: "2px solid gray",
+        border: "2px solid #BDBDBD",
         borderRadius: "20px",
         padding: "8px 15px",
-        fontSize: "15px",
         margin: "10px 0px",
-       width:"70%"
+        width:"90%",
+        backgroundColor:"#1a1d29e0",
+        color:"#fff",
+        fontSize:"20px",
     },
     textArea:{
-        width: "80%",
+        width: "90%",
         padding: "8px 15px",
-        border: "2px solid gray",
+        backgroundColor:"#1a1d29e0",
+        color:"#fff",
+        fontSize:"20px",
+        border: "2px solid #BDBDBD",
         borderRadius: "5px",
         margin: "15px 0px"
+    },
+    sendButtom:{
+        background:"#FE5205",
+        boxShadow: 3,
+        fontWeight: 500,
+        py:1, borderRadius: 20,
+        transition: ".4s",
+        position: "revert",
+        '&:hover': {
+                    color:"#fff",
+                    backgroundColor: '#CB0001',
+                    transform: "scale(1.1)"
+                    }
     }
 })
 
 const EmailForm = () => {
     const classes = useStyle();
+    const form = useRef();
     const sendEmail = e =>{
-        e.preventDefault();
-        emailjs.sendForm('service_ys3v9za','template_1l0umhy',e.target,"user_WDClpve9lZTHJckbAFp3C").then(res=>{
-            alert("Email Send Successfully")
-            
+        
+        e.preventDefault()
+        emailjs.sendForm('service_64fo5li', 'template_97mzt4i', e.target, 'sEIjvaT255FOB530n')
+        .then((res) => {
+            alert("Email Send Successfully.")
+            form.current.reset(); 
         }).catch(err => console.log(err));
     }
     return (
-        <Box >
-             <Typography variant="h6" gutterBottom component="div">
-                Send Email
+        <Box sx={{color:"#fff",mt:5,mb:20,pl:{sx:2,sm:4,md:5}}} >
+             <Typography sx={{textAlign:"center",fontSize:"1.8rem",color:"#FE5205"}} variant="button" display="block" gutterBottom>
+                send me an email
             </Typography>
-            <form action="" onSubmit={sendEmail}>
-                 <label className={classes.inputText} htmlFor="userEmail">From </label><br />
-                <input type="text" className={classes.inputArea} placeholder='Your Email' name="customerEmail"/> <br />
+             <Typography sx={{textAlign:"center",fontSize:"1rem",mb:5}} variant="button" display="block" gutterBottom>
+                I'm very responsive to messages
+            </Typography>
+            <form ref={form} action="" onSubmit={sendEmail}>
+                <Box sx={{display:{xs:"block",sm:"flex"},width:"100%"}}>
+                    <Box sx={{width:{xs:"100%",sm:"47%"}}}>
+                        <label className={classes.inputText} htmlFor="userEmail">Name</label><br />
+                        <input  name="user_name" type="text" className={classes.inputArea} placeholder='Your Name'/>
+                    </Box>
+                    <Box sx={{width:{xs:"100%",sm:"47%"},pl:{xs:0,sm:1}}}>
+                        <label className={classes.inputText} htmlFor="userEmail">Your Email </label><br />
+                        <input type="email" className={classes.inputArea} placeholder='Your Email' name="user_email"/>
+                    </Box>
+                </Box>
+                
                 <label className={classes.inputText} htmlFor="myEmail">To </label><br />
                 <input className={classes.inputArea} type="text" value='mdhanif115825@gmail.com' name="ownerEmail" /> <br />
                
                 <textarea name="message" className={classes.textArea} placeholder='Write email...' id="" width="100%" rows="7"></textarea> <br />
-                <Button sx={{position: "revert"}} type="submit" value="Send" variant="contained" endIcon={<SendIcon />}>
+                <Button  sx={{
+                     background:"#FE5205",
+                     boxShadow: 3,
+                     fontSize:"17px",
+                     fontWeight: 500,
+                     py:1,px:3, borderRadius: 20,
+                     transition: ".4s",
+                     position: "revert",
+                     '&:hover': {
+                                 color:"#fff",
+                                 backgroundColor: '#FE5205',
+                                 transform: "scale(1.1)"
+                                 }
+                 
+                }} type="submit" value="Send" variant="contained" endIcon={<SendIcon/>}>
                   Send
                 </Button>
             </form>

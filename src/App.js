@@ -9,6 +9,8 @@ import Home from './Pages/Home/Home';
 import About from './Pages/About/About';
 import Slider from './Pages/SliderNav/Slider';
 import Services from './Pages/Services/Services';
+import Contact from './Pages/Contact/Contact';
+
 
 
 
@@ -20,6 +22,7 @@ function App() {
          <Route path="*" element={<Slider  to="/home"/>} />
          <Route path="about" element={<About  to="/about"/>} />
          <Route path="services" element={<Services  to="/about"/>} />
+         <Route path="contact" element={<Contact  to="/about"/>} />
       </Route>
       {/* <Route path="/contact" element={<Contact />} />  */}
     </Routes>
