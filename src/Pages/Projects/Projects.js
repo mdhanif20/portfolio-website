@@ -32,7 +32,7 @@ const Projects = () => {
     },[]);
 
     return (
-        <Box className={classes.scrollBar} sx={{background:"#1E2132"}}>
+        <Box style={{borderRadius:"0px",border:0}} className={classes.scrollBar} sx={{background:"#1E2132"}}>
 
             <Box sx={{p:2}}>
                 <h4 style={{textAlign:"center",fontSize:'2.5rem',fontWeight:"400",paddingBottom:'30px',color:"#fff"}}>My Website</h4>

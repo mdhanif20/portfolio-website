@@ -25,7 +25,7 @@ const Project = ({data}) => {
     }
     return (
         <> 
-         <Grid sx={{py:10}} item xs={12} sm={6}  >
+         <Grid sx={{py:10,background:"#1E2132"}} item xs={12} sm={6}  >
                             <Card sx={{ width: "100%",pt:1,pb:3 }}>
                                 <CardMedia
                                     component="img"
