@@ -12,13 +12,13 @@ const useStyle = makeStyles({
         boxShadow: 3,
         fontWeight: 500,
         py:1, borderRadius: 20,
-        transition: ".4s",
         position: "revert",
+       /*  transition: ".4s",
         '&:hover': {
                     color:"#fff",
                     backgroundColor: '#CB0001',
                     transform: "scale(1.1)"
-                    }
+                    } */
     },
     scrollBar:{
         overflow:"scroll",
@@ -42,21 +42,21 @@ const useStyle = makeStyles({
      position: "revert",
      padding:"1px , 3px",
     borderRadius: 20,
-     transition: ".4s",
+   /*   transition: ".4s",
      
      '&:hover': {
         border: "2px solid #fff",
         borderColor:"#fff",
          backgroundColor: '#161824',
          transform: "scale(1.1)"
-    },
+    } */},
     hiremeAncor:{
         textDecoration:"none",
         color:"#fff",
     }
     
 }
-})
+)
 
 const Slider = () => {
     const classes = useStyle();
@@ -103,13 +103,13 @@ const Slider = () => {
                     boxShadow: 3,
                     fontWeight: 500,
                     py:1, borderRadius: 20,
-                    transition: ".4s",
                     position: "revert",
+                    transition: ".4s",
                     '&:hover': {
                     color:"#fff",
                     backgroundColor: '#FE5205',
                     transform: "scale(1.1)"
-                    }
+                    } 
                     }} href="https://drive.google.com/u/0/uc?id=1jQC4ny1KU-hYF2V97a_yrABWZKIZZKdJ&export=download"  variant="contained"> 
                         Get Resume           
                     </Button>
@@ -120,13 +120,13 @@ const Slider = () => {
                     position: "revert",
                     padding:"1px , 3px",
                     borderRadius: 20,
-                    transition: ".4s",
+                     transition: ".4s",
                     '&:hover': {
                     border: "2px solid #fff",
                     borderColor:"#fff",
                      backgroundColor: '#161824',
-                     transform: "scale(1.1)"
-                }
+                     transform: "scale(1.1)" 
+                } 
                 }} 
                     variant="outlined" to="#contactArea"> 
                     <a style={{textDecoration:"none",color:"#fff",
@@ -141,13 +141,13 @@ const Slider = () => {
                     position: "revert",
                     padding:"1px , 3px",
                     borderRadius: 20,
-                    transition: ".4s",
+                   transition: ".4s",
                     '&:hover': {
                     border: "2px solid #fff",
                     borderColor:"#fff",
                      backgroundColor: '#161824',
-                     transform: "scale(1.1)"
-                }    
+                     transform: "scale(1.1)" 
+                } 
                 }} 
                     variant="outlined" to="#contactArea"> 
                     <a style={{textDecoration:"none",color:"#fff",fontSize:'.9rem'}} href="#contactArea">Hire Me</a>

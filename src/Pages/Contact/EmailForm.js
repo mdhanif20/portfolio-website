@@ -36,13 +36,13 @@ const useStyle = makeStyles({
         boxShadow: 3,
         fontWeight: 500,
         py:1, borderRadius: 20,
-        transition: ".4s",
         position: "revert",
+       /*  transition: ".4s",
         '&:hover': {
                     color:"#fff",
                     backgroundColor: '#CB0001',
                     transform: "scale(1.1)"
-                    }
+                    } */
     }
 })
 
@@ -59,7 +59,7 @@ const EmailForm = () => {
         }).catch(err => console.log(err));
     }
     return (
-        <Box sx={{color:"#fff",mt:5,mb:20,pl:{sx:2,sm:4,md:5}}} >
+        <Box sx={{color:"#fff",mt:7,mb:15,pl:{sx:2,sm:4,md:5}}} >
              <Typography sx={{textAlign:"center",fontSize:"1.8rem",color:"#FE5205"}} variant="button" display="block" gutterBottom>
                 send me an email
             </Typography>
@@ -81,15 +81,15 @@ const EmailForm = () => {
                 <label className={classes.inputText} htmlFor="myEmail">To </label><br />
                 <input className={classes.inputArea} type="text" value='mdhanif115825@gmail.com' name="ownerEmail" /> <br />
                
-                <textarea name="message" className={classes.textArea} placeholder='Write email...' id="" width="100%" rows="7"></textarea> <br />
+                <textarea name="message" className={classes.textArea} placeholder='Write email...' id="" width="100%" style={{height:"35vh"}} rows="7"></textarea> <br />
                 <Button  sx={{
                      background:"#FE5205",
                      boxShadow: 3,
                      fontSize:"17px",
                      fontWeight: 500,
                      py:1,px:3, borderRadius: 20,
-                     transition: ".4s",
                      position: "revert",
+                     transition: ".4s",
                      '&:hover': {
                                  color:"#fff",
                                  backgroundColor: '#FE5205',

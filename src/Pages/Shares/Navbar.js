@@ -27,6 +27,7 @@ const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 const useStyle = makeStyles({
   socialIcon:{
     fontSize: "22px",
+    background:"#1E2132",
     padding: "5px",
     borderRadius: "50%",
     margin: "0px 2px",
@@ -73,60 +74,6 @@ const Navbar = () => {
               Portfolio
             </Typography>
   
-{/* 
-            <Box sx={{  flexGrow: 1,justifyContent: 'flex-end',  display: { xs: 'flex', md: 'none' } }}>
-              <IconButton
-                size="large"
-                aria-label="account of current user"
-                aria-controls="menu-appbar"
-                aria-haspopup="true"
-                onClick={handleOpenNavMenu}
-                color="inherit"
-              >
-                <MenuIcon />
-              </IconButton>
-              <Menu
-                id="menu-appbar"
-                anchorEl={anchorElNav}
-                anchorOrigin={{
-                  vertical: 'bottom',
-                  horizontal: 'left',
-                }}
-                keepMounted
-                transformOrigin={{
-                  vertical: 'top',
-                  horizontal: 'left',
-                }}
-                open={Boolean(anchorElNav)}
-                onClose={handleCloseNavMenu}
-                sx={{
-                    width:"100%",
-                  display: { xs: 'block', md: 'none' },
-                }}
-              >
-                
-                  <MenuItem sx={{width:"100%", display: 'grid', gridTemplateRows: 'repeat(3, 1fr)' }} onClick={handleCloseNavMenu}>
-                  <Typography sx={{width:"100%",p:1}} textAlign="left">
-                    <a href="#">
-                    <FacebookIcon/>
-                    </a>
-                  </Typography> 
-                  <Typography sx={{width:"100%" ,p:1}} textAlign="left">
-                    <a href="#">
-                    <LinkedInIcon />
-                    </a>
-                  </Typography>
-                  <Typography sx={{width:"100%" ,p:1}} textAlign="left">
-                  <Link to="/about"><TwitterIcon /></Link>
-                  </Typography>
-                  <Typography sx={{width:"100%" ,p:1}} textAlign="left">
-                  <Link to="/about"><EmailIcon /></Link>
-                  </Typography>
-
-                  </MenuItem>
-               
-              </Menu>
-            </Box> */}
           
             <Box sx={{ flexGrow: 1, justifyContent: 'flex-end', display: 'flex' }}>
               
@@ -139,7 +86,7 @@ const Navbar = () => {
                 padding:"0px",
                 borderRadius:"0px"}}
                 >
-              <a style={{textDecoration:"none",color:"#fff"}} href="#about"><FacebookIcon className={classes.socialIcon}/></a>
+              <a style={{textDecoration:"none",color:"#fff"}} href="#about"><FacebookIcon style={{background:"#1E2132"}} className={classes.socialIcon}/></a>
               </Button>
 
               <Button  onClick={handleCloseNavMenu} 
@@ -150,7 +97,7 @@ const Navbar = () => {
                 padding:"0px",
                 borderRadius:"0px"}}
               >
-              <a style={{textDecoration:"none",color:"#fff"}} href="#about"><LinkedInIcon className={classes.socialIcon}/></a>
+              <a style={{textDecoration:"none",color:"#fff"}} href="#about"><LinkedInIcon style={{background:"#1E2132"}} className={classes.socialIcon}/></a>
               </Button>
 
               <Button  onClick={handleCloseNavMenu} 
@@ -161,7 +108,7 @@ const Navbar = () => {
                 padding:"0px",
                 borderRadius:"0px"}}
               >
-              <a style={{textDecoration:"none",color:"#fff"}} href="#contactArea"><TwitterIcon className={classes.socialIcon}/></a>
+              <a style={{textDecoration:"none",color:"#fff"}} href="#contactArea"><TwitterIcon style={{background:"#1E2132"}} className={classes.socialIcon}/></a>
               </Button>
 
               <Button  onClick={handleCloseNavMenu} 
@@ -172,20 +119,9 @@ const Navbar = () => {
                 padding:"0px",
                 borderRadius:"0px"}}
               >
-              <a style={{textDecoration:"none",color:"#fff"}} href="#contactArea"><EmailIcon className={classes.socialIcon}/></a>
+              <a style={{textDecoration:"none",color:"#fff"}} href="#contactArea"><EmailIcon style={{background:"#1E2132"}} className={classes.socialIcon}/></a>
               </Button>
 
-             
-              {/* <Button  onClick={handleCloseNavMenu} 
-              sx={{ 
-                lineHeight:"0px",
-                margin:"0px",
-                minWidth:"0px",
-                padding:"0px",
-                borderRadius:"0px"}}
-              >
-              <Avatar sx={{border: "2px solid #FE5205",fontSize:"22px"}} alt="Remy Sharp" src={`${img}`} />  
-              </Button> */} 
             </Box>
 
           </Toolbar>

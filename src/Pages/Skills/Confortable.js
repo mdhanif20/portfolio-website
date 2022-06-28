@@ -26,6 +26,7 @@ const Confortable = () => {
     .then(res => res.json())
     .then(data => setFamiliars(data))
  },[]);
+ console.log(skills)
 
     return ( 
         <Box sx={{py:{xs:1,sm:8}}}>

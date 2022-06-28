@@ -18,6 +18,8 @@ import PersonIcon from '@mui/icons-material/Person';
 import ForumIcon from '@mui/icons-material/Forum';
 import ContactsIcon from '@mui/icons-material/Contacts';
 import FileOpenIcon from '@mui/icons-material/FileOpen';
+import Stack from '@mui/material/Stack';
+
 
 const useStyle = makeStyles({
     container:{
@@ -25,16 +27,18 @@ const useStyle = makeStyles({
         height:"100vh",
         position: "sticky",
         color:'#fff',
+        
     },
     item:{
         display:"flex",
         alignItems:"center",
         marginBottom:"25px",
         cursor:"pointer",
-        '&:hover':{
+        /* '&:hover':{
             transform: 'scale(1.01)',
             transition:".1s"
-        }
+        } */
+        
     },
     icon:{
         marginRight:"6px",
@@ -59,7 +63,7 @@ const useStyle = makeStyles({
     },
     textSmall:{
         fontWeight:800,
-        border:"2px solid #FE5205",
+        // border:"2px solid #FE5205", 
         padding:"2px 16px",
         borderRadius:"30px",
         backgroundColor:"#1E2132",
@@ -71,11 +75,12 @@ const useStyle = makeStyles({
         alignItems:"center",
         marginBottom:"40px",
         cursor:"pointer",
-        '&:hover $textSmall':{
+       /*  '&:hover $textSmall':{
             marginLeft:"0",
             opacity:1,
             transition:".6s"
-        }
+        } */
+        
     },
     
     iconSmall:{
@@ -90,10 +95,13 @@ const LeftSideBar = () => {
     const classes = useStyle();
 
     return (
+        // boxShadow:"-4px 1px 15px #101010 !important" 
         <Box sx={{display:"flex",position:'fixed',marginTop:"55px", zIndex:1}}>
             <Box sx={{display:{xs:"none",sm:"none",md:"block"}}}>
-                    <Container sx={{  bgcolor:"#1E2132",width:"180px",boxShadow: 5}} className={classes.container}>
-                    <div className={classes.item}>
+            <Container style={{borderRight:"2px solid #232222"}} sx={{ bgcolor:"#1E2132",width:"180px",boxShadow:"-4px 1px 10px #101010 !important",borderRadius:"0px",border:"0px"}}
+                 className={classes.container}>
+             
+            <div className={classes.item}>
                     <Link to="/" style={{textDecoration:"none"}}>
                         <Button sx={{  color: 'white', display: 'flex',padding:"6px 0px"}}>
                         <WaterDamageIcon sx={{fontSize:"1.8rem"}} className={classes.icon}/>
@@ -119,13 +127,15 @@ const LeftSideBar = () => {
                     </Link>
                     </div>   
                     <div className={classes.item}>
-                        <Button sx={{ color: 'white', display: 'flex' ,padding:"6px 0px"}}>
-                        <WorkIcon  sx={{fontSize:"1.8rem"}}  className={classes.icon}/>
-                        <span className={classes.text}>Projects</span>
-                        </Button> 
+                        <Link to="/projects" style={{textDecoration:"none"}}>
+                            <Button sx={{ color: 'white', display: 'flex' ,padding:"6px 0px"}}>
+                            <WorkIcon  sx={{fontSize:"1.8rem"}}  className={classes.icon}/>
+                            <span className={classes.text}>Projects</span>
+                            </Button> 
+                        </Link>
                     </div>   
                     <div className={classes.item}>
-                        <Button sx={{ color: 'white', display: 'flex',padding:"6px 0px" }}>
+                        <Button href="https://drive.google.com/file/d/1dc_vL62vUkQqzHTvTUkuvgAqMnuHcQw_/view?usp=sharing" sx={{ color: 'white', display: 'flex',padding:"6px 0px" }}>
                         < FileOpenIcon  sx={{fontSize:"1.8rem"}} className={classes.icon}/>
                         <span className={classes.text}>Resume</span>
                         </Button> 
@@ -137,8 +147,10 @@ const LeftSideBar = () => {
                         <span className={classes.text}>Contact</span>
                         </Button> 
                         </Link>
-                    </div>   
-                </Container>
+                    </div> 
+                          
+            </Container>
+            
             </Box>
 
             <Box sx={{display:{xs:"block",sm:"block",md:"none"},zIndex:1,boxShadow: 5}}>
@@ -174,7 +186,7 @@ const LeftSideBar = () => {
             </Box>
             <Outlet/>
         </Box>
-       
+        
         
     );
 };

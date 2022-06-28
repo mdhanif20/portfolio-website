@@ -44,7 +44,7 @@ const Services = () => {
     const classes = useStyle();
     return (
        <Box className={classes.scrollBar} sx={{bgcolor:"#1E2132",width:"100%"}}>
-            <Container sx={{py:5,width:"100%"}}>
+            <Container sx={{py:3,width:"100%",mb:10}}>
                 <Typography sx={{borderBottom:"2px solid #FE5205",width:"130px",color:"#fff",mt:4}} variant="h4" gutterBottom component="div">
                     Services
                 </Typography>

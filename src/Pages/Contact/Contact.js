@@ -32,7 +32,7 @@ const useStyle = makeStyles({
 const Contact = () => {
     const classes = useStyle();
     return (
-        <Box className={classes.scrollBar} sx={{width:"100%",bgcolor:"#1E2131",p:2}}>
+        <Box className={classes.scrollBar} sx={{width:"100%",bgcolor:"#1E2131",p:2,pt:5}}>
             <Box sx={{width:"100%"}}>
             <Typography sx={{borderBottom:"2px solid #FE5205",width:"125px",color:"#fff",mt:4}} variant="h5" gutterBottom component="div">
             Contact Me
