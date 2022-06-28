@@ -37,13 +37,7 @@ const Project = ({data}) => {
                                     <Typography gutterBottom variant="h5" component="div">
                                     {data.websiteName}
                                     </Typography>
-                                    <Box sx={{display:"flex",justifyContent: "space-between",alignItems: "center"}}>
-                                        <Typography style={{fontSize:"2rem",fontWeight:"600",color:"#FAAF00"}} component="legend">{data.price}</Typography>
-                                        <Box sx={{display:"flex"}}>
-                                            <Rating name="half-rating-read" defaultValue={data.review} precision={0.5} readOnly />
-                                            <span component="legend">{data.totalReview}</span>
-                                        </Box>
-                                    </Box>
+                                    
                                     <Typography variant="body2" color="text.secondary">
                                    {
                                         learn? <>
