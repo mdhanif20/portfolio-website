@@ -21,12 +21,12 @@ const useStyle = makeStyles({
     }
 })
 
-
+// fetch("https://calm-anchorage-79518.herokuapp.com/themes") 
 const Projects = () => {
     const classes = useStyle();
     const [themes,setThemes]= useState([]);
     useEffect(()=>{
-        fetch("https://calm-anchorage-79518.herokuapp.com/themes")
+        fetch("https://calm-anchorage-79518.herokuapp.com/themes") 
         .then(res=>res.json())
         .then(data => setThemes(data))
     },[]);
