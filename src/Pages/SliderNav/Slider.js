@@ -96,7 +96,7 @@ const Slider = () => {
                 </Typography>
                 </Box>
                 <Typography variant="body2" gutterBottom component="div" sx={{pt:1,pb:2}}>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus veniam consequatur debitis numquam nobis voluptatibus in magnam fuga modi voluptatem.
+                Hi, I am Mohammad Hanif. I am from Bangladesh. I have completed my web development course from Programming Hero. I am expert in HTML5, CSS3, Bootstrap 5, JavaScript + ES6, React, React Router, React Bootstrap, Material Ui and comfortable with Node js, Express js, MongoDB, Tailwind CSS, Firebase.
                 </Typography>
 
                 <Stack sx={{justifyContent:"start",mt:{xs:2,md:3},pb:20 }} spacing={1} direction="row">

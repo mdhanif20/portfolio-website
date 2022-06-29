@@ -86,7 +86,7 @@ const Navbar = () => {
                 padding:"0px",
                 borderRadius:"0px"}}
                 >
-              <a style={{textDecoration:"none",color:"#fff"}} href="#about"><FacebookIcon style={{background:"#1E2132"}} className={classes.socialIcon}/></a>
+              <a target="_blank" style={{textDecoration:"none",color:"#fff"}} href="https://web.facebook.com/profile.php?id=100055606685759&_rdc=1&_rdr"><FacebookIcon style={{background:"#1E2132"}} className={classes.socialIcon}/></a>
               </Button>
 
               <Button  onClick={handleCloseNavMenu} 
@@ -97,7 +97,7 @@ const Navbar = () => {
                 padding:"0px",
                 borderRadius:"0px"}}
               >
-              <a style={{textDecoration:"none",color:"#fff"}} href="#about"><LinkedInIcon style={{background:"#1E2132"}} className={classes.socialIcon}/></a>
+              <a target="_blank" style={{textDecoration:"none",color:"#fff"}} href="https://www.linkedin.com/in/mohammad-hanif-6a61b920b/"><LinkedInIcon style={{background:"#1E2132"}} className={classes.socialIcon}/></a>
               </Button>
 
               <Button  onClick={handleCloseNavMenu} 
