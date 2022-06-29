@@ -32,8 +32,11 @@ const useStyle = makeStyles({
     item:{
         display:"flex",
         alignItems:"center",
-        marginBottom:"25px",
+        margin:"0px 0px 25px 0px",
+        padding:'0px',
         cursor:"pointer",
+        border:'none',
+        background:"transparent"
         /* '&:hover':{
             transform: 'scale(1.01)',
             transition:".1s"
@@ -42,11 +45,14 @@ const useStyle = makeStyles({
     },
     icon:{
         marginRight:"6px",
-        fontSize:"32px"
+        fontSize:"32px",
+        border:'none',
+        background:'transparent'
     },
     text:{
         fontWeight:500,
         fontSize:"17px",
+        background:"transparent"
     },
     linkDesign:{
         textDecoration:"none",
