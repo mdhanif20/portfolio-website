@@ -101,53 +101,53 @@ const LeftSideBar = () => {
             <Container style={{borderRight:"2px solid #232222"}} sx={{ bgcolor:"#1E2132",width:"180px",boxShadow:"-4px 1px 10px #101010 !important",borderRadius:"0px",border:"0px"}}
                  className={classes.container}>
              
-            <div className={classes.item}>
+            <Box className={classes.item}>
                     <Link to="/" style={{textDecoration:"none"}}>
                         <Button sx={{  color: 'white', display: 'flex',padding:"6px 0px"}}>
                         <WaterDamageIcon sx={{fontSize:"1.8rem"}} className={classes.icon}/>
                         <span className={classes.text}>Home</span>
                         </Button> 
                     </Link>
-                    </div>   
-                    <div className={classes.item}>
+                    </Box>   
+                    <Box className={classes.item}>
                     <Link to="/about" style={{textDecoration:"none"}}>
                         <Button sx={{ color: 'white', display: 'flex',padding:"6px 0px" }}>
                         <PersonIcon   sx={{fontSize:"1.8rem"}} className={classes.icon}/>
                         <span className={classes.text}>About</span>
                         </Button> 
                     </Link>
-                    </div>  
+                    </Box>  
                     
-                    <div className={classes.item}>
+                    <Box className={classes.item}>
                     <Link to="/services" style={{textDecoration:"none"}}>  
                         <Button sx={{ color: 'white', display: 'flex',padding:"6px 0px" }}>
                         <ListIcon   sx={{fontSize:"1.8rem"}} className={classes.icon}/>
                         <span className={classes.text}>Services</span>
                         </Button> 
                     </Link>
-                    </div>   
-                    <div className={classes.item}>
+                    </Box>   
+                    <Box className={classes.item}>
                         <Link to="/projects" style={{textDecoration:"none"}}>
                             <Button sx={{ color: 'white', display: 'flex' ,padding:"6px 0px"}}>
                             <WorkIcon  sx={{fontSize:"1.8rem"}}  className={classes.icon}/>
                             <span className={classes.text}>Projects</span>
                             </Button> 
                         </Link>
-                    </div>   
-                    <div className={classes.item}>
+                    </Box>   
+                    <Box className={classes.item}>
                         <Button href="https://drive.google.com/file/d/1dc_vL62vUkQqzHTvTUkuvgAqMnuHcQw_/view?usp=sharing" sx={{ color: 'white', display: 'flex',padding:"6px 0px" }}>
                         < FileOpenIcon  sx={{fontSize:"1.8rem"}} className={classes.icon}/>
                         <span className={classes.text}>Resume</span>
                         </Button> 
-                    </div>   
-                    <div className={classes.item}>
+                    </Box>   
+                    <Box className={classes.item}>
                          <Link to="/contact" style={{textDecoration:"none"}}> 
                         <Button sx={{ color: 'white', display: 'flex',padding:"6px 0px" }}>
                         <ForumIcon  sx={{fontSize:"1.8rem"}}  className={classes.icon}/>
                         <span className={classes.text}>Contact</span>
                         </Button> 
                         </Link>
-                    </div> 
+                    </Box> 
                           
             </Container>
             
@@ -155,33 +155,33 @@ const LeftSideBar = () => {
 
             <Box sx={{display:{xs:"block",sm:"block",md:"none"},zIndex:1,boxShadow: 5}}>
                     <Container sx={{ bgcolor:"#1E2132",width:"34px",paddingLeft:"5px",paddingRight:"38px"}} className={classes.containerSmall}>
-                        <div className={classes.itemSmall}>
+                        <Box className={classes.itemSmall}>
                             <WaterDamageIcon sx={{marginLeft:{xs:0,sm:"-14px",md:0}}} style={{fontSize:"30px"}} className={classes.iconSmall}/>
                             <Typography style={{fontWeight:400}} className={classes.textSmall}>Home</Typography>
-                        </div>
+                        </Box>
                     
-                    <div className={classes.itemSmall}>
+                    <Box className={classes.itemSmall}>
                         <PersonIcon sx={{marginLeft:{xs:0,sm:"-14px",md:0}}} style={{fontSize:"30px"}}  className={classes.iconSmall}/>
                         <Typography style={{fontWeight:400}} className={classes.textSmall}>About</Typography>
-                    </div>
-                    <div className={classes.itemSmall}>
+                    </Box>
+                    <Box className={classes.itemSmall}>
                         <ListIcon sx={{marginLeft:{xs:0,sm:"-14px",md:0}}} style={{fontSize:"30px"}}  className={classes.iconSmall}/>
                         <Typography style={{fontWeight:400}} className={classes.textSmall}>Services</Typography>
-                    </div>
-                    <div className={classes.itemSmall}>
+                    </Box>
+                    <Box className={classes.itemSmall}>
                         <WorkIcon sx={{marginLeft:{xs:0,sm:"-14px",md:0}}} style={{fontSize:"30px"}}  className={classes.iconSmall}/>
                         <Typography style={{fontWeight:400}} className={classes.textSmall}>Project</Typography>
-                    </div>
-                    <div className={classes.itemSmall}>
+                    </Box>
+                    <Box className={classes.itemSmall}>
                         < FileOpenIcon sx={{marginLeft:{xs:0,sm:"-14px",md:0}}} style={{fontSize:"30px"}}  className={classes.iconSmall}/>
                         <Typography style={{fontWeight:400}}  className={classes.textSmall}>Resume</Typography>
-                    </div>
-                    <div className={classes.itemSmall}>
+                    </Box>
+                    <Box className={classes.itemSmall}>
                     <Link to="/contact" style={{textDecoration:"none"}}>  
                         <ForumIcon sx={{marginLeft:{xs:0,sm:"-14px",md:0}}} style={{fontSize:"30px"}}  className={classes.iconSmall}/>
                         <Typography style={{fontWeight:400}}  className={classes.textSmall}>Contact</Typography>
                         </Link>
-                    </div>
+                    </Box>
                 </Container>
             </Box>
             <Outlet/>
