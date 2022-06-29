@@ -5,6 +5,7 @@ import { makeStyles } from '@mui/styles';
 import Typography from '@mui/material/Typography';
 import Stack from '@mui/material/Stack';
 import Button from '@mui/material/Button';
+import { Link } from 'react-router-dom';
 
 const useStyle = makeStyles({
     resumeButtom:{
@@ -110,7 +111,7 @@ const Slider = () => {
                     backgroundColor: '#FE5205',
                     transform: "scale(1.1)"
                     } 
-                    }} href="https://drive.google.com/u/0/uc?id=1jQC4ny1KU-hYF2V97a_yrABWZKIZZKdJ&export=download"  variant="contained"> 
+                    }} href="https://drive.google.com/uc?export=download&id=1dc_vL62vUkQqzHTvTUkuvgAqMnuHcQw_"  variant="contained"> 
                         Get Resume           
                     </Button>
                     <Button sx={{display:{xs:"none",md:"block"},fontSize:"1.1rem",
@@ -129,9 +130,9 @@ const Slider = () => {
                 } 
                 }} 
                     variant="outlined" to="#contactArea"> 
-                    <a style={{textDecoration:"none",color:"#fff",
+                    <Link style={{textDecoration:"none",color:"#fff",
                      
-                }} href="#contactArea">Hire Me</a>
+                }} to="/contact">Hire Me</Link>
                     </Button>
                     <Button  sx={{display:{xs:"block",md:"none"},
                     border: "2px solid #fff",
@@ -150,7 +151,7 @@ const Slider = () => {
                 } 
                 }} 
                     variant="outlined" to="#contactArea"> 
-                    <a style={{textDecoration:"none",color:"#fff",fontSize:'.9rem'}} href="#contactArea">Hire Me</a>
+                    <Link to="/contact" style={{textDecoration:"none",color:"#fff",fontSize:'.9rem'}} href="#contactArea">Hire Me</Link>
                     </Button>
                     
                 </Stack>

@@ -3,7 +3,7 @@ import Typography from '@mui/material/Typography';
 import { Box} from '@mui/material';
 import { makeStyles } from '@mui/styles';
 import Slider from '@mui/material/Slider';
-import Grid from '@mui/material/Grid';
+
 
 const useStyle = makeStyles({
     skill:{

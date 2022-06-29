@@ -32,7 +32,7 @@ const useStyle = makeStyles({
     item:{
         display:"flex",
         alignItems:"center",
-        margin:"0px 0px 25px 0px",
+        margin:"0px 0px 30px 0px",
         padding:'0px',
         cursor:"pointer",
         border:'none',
@@ -57,8 +57,46 @@ const useStyle = makeStyles({
     linkDesign:{
         textDecoration:"none",
         color:"#fff"
+    },
+    containerSmall:{
+        padding:"20px 0px", 
+        paddingBottom:".09px",
+        height:"100vh", 
+        position: "sticky",
+        color:'#fff',
+        top:0,
+    },
+    textSmall:{
+        fontWeight:800,
+        border:"2px solid #FE5200",
+        padding:"2px 14px",
+        borderRadius:"30px",
+        backgroundColor:"#fff",
+        marginLeft:"-100%",
+        opacity:0,
+        zIndex:1
+    },
+    itemSmall:{
+        display:"flex",
+        alignItems:"center",
+        justifyContent:"flex-start",
+        cursor:"pointer",
+        color:"black",
+        width:"100%",
+        marginBottom:"38px",
+        '&:hover $textSmall':{
+            marginLeft:"0",
+            opacity:1,
+            transition:".6s"
+        }
+    },
+    
+    iconSmall:{
+        marginRight:"6px",
+        color:"#fff",
+        zIndex:2
     }
-    ,
+    /* ,
     containerSmall:{
         padding:"20px 5px", 
         paddingBottom:".09px",
@@ -69,7 +107,7 @@ const useStyle = makeStyles({
     },
     textSmall:{
         fontWeight:800,
-        // border:"2px solid #FE5205", 
+        border:"2px solid #FE5205", 
         padding:"2px 16px",
         borderRadius:"30px",
         backgroundColor:"#1E2132",
@@ -81,17 +119,17 @@ const useStyle = makeStyles({
         alignItems:"center",
         marginBottom:"40px",
         cursor:"pointer",
-       /*  '&:hover $textSmall':{
+       '&:hover $textSmall':{
             marginLeft:"0",
             opacity:1,
             transition:".6s"
-        } */
+        }
         
     },
     
     iconSmall:{
         marginRight:"6px",
-    }
+    } */
    
 })
  
@@ -110,7 +148,7 @@ const LeftSideBar = () => {
             <Box style={{border:"none"}}  className={classes.item}>
                     <Link to="/" style={{textDecoration:"none"}}>
                         <Button sx={{  color: 'white', display: 'flex',padding:"6px 0px"}}>
-                        <WaterDamageIcon sx={{fontSize:"1.8rem"}} style={{background:"transparent",border:"none"}}  className={classes.item}/>
+                        <WaterDamageIcon sx={{fontSize:"1.8rem"}} style={{background:"transparent",border:"none"}}  className={classes.icon}/>
                         <span className={classes.text}>Home</span>
                         </Button> 
                     </Link>
@@ -118,7 +156,7 @@ const LeftSideBar = () => {
                     <Box style={{border:"none"}}  className={classes.item}>
                     <Link to="/about" style={{textDecoration:"none"}}>
                         <Button sx={{ color: 'white', display: 'flex',padding:"6px 0px" }}>
-                        <PersonIcon   sx={{fontSize:"1.8rem"}} style={{background:"transparent",border:"none"}}  className={classes.item}/>
+                        <PersonIcon   sx={{fontSize:"1.8rem"}} style={{background:"transparent",border:"none"}}  className={classes.icon}/>
                         <span className={classes.text}>About</span>
                         </Button> 
                     </Link>
@@ -127,7 +165,7 @@ const LeftSideBar = () => {
                     <Box style={{border:"none"}}  className={classes.item}>
                     <Link to="/services" style={{textDecoration:"none"}}>  
                         <Button sx={{ color: 'white', display: 'flex',padding:"6px 0px" }}>
-                        <ListIcon   sx={{fontSize:"1.8rem"}} style={{background:"transparent",border:"none"}}  className={classes.item}/>
+                        <ListIcon   sx={{fontSize:"1.8rem"}} style={{background:"transparent",border:"none"}}  className={classes.icon}/>
                         <span className={classes.text}>Services</span>
                         </Button> 
                     </Link>
@@ -135,21 +173,21 @@ const LeftSideBar = () => {
                     <Box style={{border:"none"}}  className={classes.item}>
                         <Link to="/projects" style={{textDecoration:"none"}}>
                             <Button sx={{ color: 'white', display: 'flex' ,padding:"6px 0px"}}>
-                            <WorkIcon  sx={{fontSize:"1.8rem"}}  style={{background:"transparent",border:"none"}}  className={classes.item}/>
+                            <WorkIcon  sx={{fontSize:"1.8rem"}}  style={{background:"transparent",border:"none"}}  className={classes.icon}/>
                             <span className={classes.text}>Projects</span>
                             </Button> 
                         </Link>
                     </Box>   
                     <Box style={{border:"none"}}  className={classes.item}>
-                        <Button href="https://drive.google.com/file/d/1dc_vL62vUkQqzHTvTUkuvgAqMnuHcQw_/view?usp=sharing" target="-blank" sx={{ color: 'white', display: 'flex',padding:"6px 0px" }}>
-                        < FileOpenIcon  sx={{fontSize:"1.8rem"}} style={{background:"transparent",border:"none"}}  className={classes.item}/>
+                        <Button href="https://drive.google.com/uc?export=download&id=1dc_vL62vUkQqzHTvTUkuvgAqMnuHcQw_" sx={{ color: 'white', display: 'flex',padding:"6px 0px" }}>
+                        < FileOpenIcon  sx={{fontSize:"1.8rem"}} style={{background:"transparent",border:"none"}}  className={classes.icon}/>
                         <span className={classes.text}>Resume</span>
                         </Button> 
                     </Box>   
                     <Box style={{border:"none"}}  className={classes.item}>
                          <Link to="/contact" style={{textDecoration:"none"}}> 
                         <Button sx={{ color: 'white', display: 'flex',padding:"6px 0px" }}>
-                        <ForumIcon  sx={{fontSize:"1.8rem"}}  style={{background:"transparent",border:"none"}}  className={classes.item}/>
+                        <ForumIcon  sx={{fontSize:"1.8rem"}}  style={{background:"transparent",border:"none"}}  className={classes.icon}/>
                         <span className={classes.text}>Contact</span>
                         </Button> 
                         </Link>
@@ -161,39 +199,41 @@ const LeftSideBar = () => {
 
             <Box sx={{display:{xs:"block",sm:"block",md:"none"},zIndex:1,boxShadow: 5}}>
                     <Container sx={{ bgcolor:"#1E2132",width:"34px",paddingLeft:"5px",paddingRight:"38px"}} className={classes.containerSmall}>
-                        <Box className={classes.itemSmall}>
-                        <Link to="/" style={{textDecoration:"none"}}>
+                        <Box sx={{pt:2}}>
+                        <Link className={classes.itemSmall} to="/" style={{textDecoration:"none"}}>
                             <WaterDamageIcon sx={{marginLeft:{xs:0,sm:"-14px",md:0}}} style={{fontSize:"30px"}} className={classes.iconSmall}/>
                             <Typography style={{fontWeight:400}} className={classes.textSmall}>Home</Typography>
                         </Link>
                         </Box>
                     
-                    <Box className={classes.itemSmall}>
-                    <Link to="/about" style={{textDecoration:"none"}}>
+                    <Box >
+                    <Link className={classes.itemSmall} to="/about" style={{textDecoration:"none"}}>
                         <PersonIcon sx={{marginLeft:{xs:0,sm:"-14px",md:0}}} style={{fontSize:"30px"}}  className={classes.iconSmall}/>
                         <Typography style={{fontWeight:400}} className={classes.textSmall}>About</Typography>
                         </Link>
                     </Box>
-                    <Box className={classes.itemSmall}>
-                    <Link to="/services" style={{textDecoration:"none"}}>
+                    <Box >
+                    <Link className={classes.itemSmall} to="/services" style={{textDecoration:"none"}}>
                         <ListIcon sx={{marginLeft:{xs:0,sm:"-14px",md:0}}} style={{fontSize:"30px"}}  className={classes.iconSmall}/>
                         <Typography style={{fontWeight:400}} className={classes.textSmall}>Services</Typography>
                         </Link>
                     </Box>
-                    <Box className={classes.itemSmall}>
-                    <Link to="/projects" style={{textDecoration:"none"}}>
+                    <Box >
+                    <Link className={classes.itemSmall} to="/projects" style={{textDecoration:"none"}}>
                         <WorkIcon sx={{marginLeft:{xs:0,sm:"-14px",md:0}}} style={{fontSize:"30px"}}  className={classes.iconSmall}/>
                         <Typography style={{fontWeight:400}} className={classes.textSmall}>Project</Typography>
                         </Link>
                     </Box>
-                    <Box className={classes.itemSmall}>
-                    <Button href="https://drive.google.com/file/d/1dc_vL62vUkQqzHTvTUkuvgAqMnuHcQw_/view?usp=sharing" target="-blank" sx={{ color: 'white', display: 'flex',padding:"6px 0px" }}>
+                    <Box >
+                    <Button  href="https://drive.google.com/uc?export=download&id=1dc_vL62vUkQqzHTvTUkuvgAqMnuHcQw_" sx={{ color: 'white', display: 'flex',padding:"6px 0px" }}>
+                        <Box className={classes.itemSmall}>
                         < FileOpenIcon sx={{marginLeft:{xs:0,sm:"-14px",md:0}}} style={{fontSize:"30px"}}  className={classes.iconSmall}/>
                         <Typography style={{fontWeight:400}}  className={classes.textSmall}>Resume</Typography>
+                        </Box>
                     </Button>
                     </Box>
-                    <Box className={classes.itemSmall}>
-                    <Link to="/contact" style={{textDecoration:"none"}}>  
+                    <Box >
+                    <Link className={classes.itemSmall} to="/contact" style={{textDecoration:"none"}}>  
                         <ForumIcon sx={{marginLeft:{xs:0,sm:"-14px",md:0}}} style={{fontSize:"30px"}}  className={classes.iconSmall}/>
                         <Typography style={{fontWeight:400}}  className={classes.textSmall}>Contact</Typography>
                         </Link>
