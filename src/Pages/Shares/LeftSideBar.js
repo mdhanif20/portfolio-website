@@ -47,7 +47,7 @@ const useStyle = makeStyles({
         marginRight:"6px",
         fontSize:"32px",
         border:'none',
-        background:'transparent'
+        background:"transparent"
     },
     text:{
         fontWeight:500,
@@ -107,49 +107,49 @@ const LeftSideBar = () => {
             <Container style={{borderRight:"2px solid #232222"}} sx={{ bgcolor:"#1E2132",width:"180px",boxShadow:"-4px 1px 10px #101010 !important",borderRadius:"0px",border:"0px"}}
                  className={classes.container}>
              
-            <Box className={classes.item}>
+            <Box style={{border:"none"}}  className={classes.item}>
                     <Link to="/" style={{textDecoration:"none"}}>
                         <Button sx={{  color: 'white', display: 'flex',padding:"6px 0px"}}>
-                        <WaterDamageIcon sx={{fontSize:"1.8rem"}} className={classes.icon}/>
+                        <WaterDamageIcon sx={{fontSize:"1.8rem"}} style={{background:"transparent"}}  className={classes.item}/>
                         <span className={classes.text}>Home</span>
                         </Button> 
                     </Link>
                     </Box>   
-                    <Box className={classes.item}>
+                    <Box style={{border:"none"}}  className={classes.item}>
                     <Link to="/about" style={{textDecoration:"none"}}>
                         <Button sx={{ color: 'white', display: 'flex',padding:"6px 0px" }}>
-                        <PersonIcon   sx={{fontSize:"1.8rem"}} className={classes.icon}/>
+                        <PersonIcon   sx={{fontSize:"1.8rem"}} style={{background:"transparent"}}  className={classes.item}/>
                         <span className={classes.text}>About</span>
                         </Button> 
                     </Link>
                     </Box>  
                     
-                    <Box className={classes.item}>
+                    <Box style={{border:"none"}}  className={classes.item}>
                     <Link to="/services" style={{textDecoration:"none"}}>  
                         <Button sx={{ color: 'white', display: 'flex',padding:"6px 0px" }}>
-                        <ListIcon   sx={{fontSize:"1.8rem"}} className={classes.icon}/>
+                        <ListIcon   sx={{fontSize:"1.8rem"}} style={{background:"transparent"}}  className={classes.item}/>
                         <span className={classes.text}>Services</span>
                         </Button> 
                     </Link>
                     </Box>   
-                    <Box className={classes.item}>
+                    <Box style={{border:"none"}}  className={classes.item}>
                         <Link to="/projects" style={{textDecoration:"none"}}>
                             <Button sx={{ color: 'white', display: 'flex' ,padding:"6px 0px"}}>
-                            <WorkIcon  sx={{fontSize:"1.8rem"}}  className={classes.icon}/>
+                            <WorkIcon  sx={{fontSize:"1.8rem"}}  style={{background:"transparent"}}  className={classes.item}/>
                             <span className={classes.text}>Projects</span>
                             </Button> 
                         </Link>
                     </Box>   
-                    <Box className={classes.item}>
+                    <Box style={{border:"none"}}  className={classes.item}>
                         <Button href="https://drive.google.com/file/d/1dc_vL62vUkQqzHTvTUkuvgAqMnuHcQw_/view?usp=sharing" sx={{ color: 'white', display: 'flex',padding:"6px 0px" }}>
-                        < FileOpenIcon  sx={{fontSize:"1.8rem"}} className={classes.icon}/>
+                        < FileOpenIcon  sx={{fontSize:"1.8rem"}} style={{background:"transparent"}}  className={classes.item}/>
                         <span className={classes.text}>Resume</span>
                         </Button> 
                     </Box>   
-                    <Box className={classes.item}>
+                    <Box style={{border:"none"}}  className={classes.item}>
                          <Link to="/contact" style={{textDecoration:"none"}}> 
                         <Button sx={{ color: 'white', display: 'flex',padding:"6px 0px" }}>
-                        <ForumIcon  sx={{fontSize:"1.8rem"}}  className={classes.icon}/>
+                        <ForumIcon  sx={{fontSize:"1.8rem"}}  style={{background:"transparent"}}  className={classes.item}/>
                         <span className={classes.text}>Contact</span>
                         </Button> 
                         </Link>

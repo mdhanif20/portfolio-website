@@ -70,21 +70,22 @@ const EmailForm = () => {
                 <Box sx={{display:{xs:"block",sm:"flex"},width:"100%"}}>
                     <Box sx={{width:{xs:"100%",sm:"47%"}}}>
                         <label className={classes.inputText} htmlFor="userEmail">Name</label><br />
-                        <input  name="user_name" type="text" className={classes.inputArea} placeholder='Your Name'/>
+                        <input  style={{height:"auto"}}  name="user_name" type="text" className={classes.inputArea} placeholder='Your Name'/>
                     </Box>
                     <Box sx={{width:{xs:"100%",sm:"47%"},pl:{xs:0,sm:1}}}>
                         <label className={classes.inputText} htmlFor="userEmail">Your Email </label><br />
-                        <input type="email" className={classes.inputArea} placeholder='Your Email' name="user_email"/>
+                        <input  style={{height:"auto"}} type="email" className={classes.inputArea} placeholder='Your Email' name="user_email"/>
                     </Box>
                 </Box>
                 
                 <label className={classes.inputText} htmlFor="myEmail">To </label><br />
-                <input className={classes.inputArea} type="text" value='mdhanif115825@gmail.com' name="ownerEmail" /> <br />
+                <input  style={{height:"auto"}} className={classes.inputArea} type="text" value='mdhanif115825@gmail.com' name="ownerEmail" /> <br />
                
                 <textarea name="message" className={classes.textArea} placeholder='Write email...' id="" width="100%" style={{height:"35vh"}} rows="7"></textarea> <br />
                 <Button  sx={{
                      background:"#FE5205",
                      boxShadow: 3,
+                     border:"2px solid #BDBDBD",
                      fontSize:"17px",
                      fontWeight: 500,
                      py:1,px:3, borderRadius: 20,
