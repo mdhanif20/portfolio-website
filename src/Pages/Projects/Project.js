@@ -44,7 +44,7 @@ const Project = ({data}) => {
                                             
                                          </>:<>
                                             {
-                                            data?.detailsOne?.slice(0,150) 
+                                            data?.detailsOne.slice(0,150) 
                                             }...
                                             <Button onClick={()=>readDetails(true,data.id)}>Read more</Button>
                                          </>
