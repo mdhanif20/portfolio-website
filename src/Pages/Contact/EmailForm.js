@@ -5,14 +5,13 @@ import Button from '@mui/material/Button';
 import SendIcon from '@mui/icons-material/Send';
 import { makeStyles } from '@mui/styles';
 import emailjs from 'emailjs-com';
-import Alert from '@mui/material/Alert';
 
 const useStyle = makeStyles({
     inputText:{
         fontSize:20
     },
     inputArea:{
-        border: "2px solid #BDBDBD",
+        border: "2px solid rgba(254, 80, 22, 0.3)",
         borderRadius: "20px",
         padding: "8px 15px",
         margin: "10px 0px",
@@ -27,7 +26,7 @@ const useStyle = makeStyles({
         backgroundColor:"#1a1d29e0",
         color:"#fff",
         fontSize:"20px",
-        border: "2px solid #BDBDBD",
+        border: "2px solid rgba(254, 80, 22, 0.3)",
         borderRadius: "5px",
         margin: "15px 0px"
     },
@@ -59,7 +58,7 @@ const EmailForm = () => {
         }).catch(err => console.log(err));
     }
     return (
-        <Box sx={{color:"#fff",mt:7,mb:15,pl:{sx:2,sm:4,md:5}}} >
+        <Box sx={{color:"#fff",mt:4,mb:15,pl:{sx:2,sm:4,md:5}}} >
              <Typography sx={{textAlign:"center",fontSize:"1.8rem",color:"#FE5205"}} variant="button" display="block" gutterBottom>
                 send me an email
             </Typography>
@@ -85,7 +84,7 @@ const EmailForm = () => {
                 <Button  sx={{
                      background:"#FE5205",
                      boxShadow: 3,
-                     border:"2px solid #BDBDBD",
+                     border:"2px solid rgba(254, 80, 22, 0.3)",
                      fontSize:"17px",
                      fontWeight: 500,
                      py:1,px:3, borderRadius: 20,

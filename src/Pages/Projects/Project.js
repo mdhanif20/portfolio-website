@@ -6,10 +6,7 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
-import Box from '@mui/material/Box';
-import Rating from '@mui/material/Rating';
-
-
+import Stack from '@mui/material/Stack';
 
 const Project = ({data}) => {
     const [learn,setLearn] = useState(false);
@@ -34,31 +31,72 @@ const Project = ({data}) => {
                                     alt="green iguana"
                                 />
                                 <CardContent>
-                                    <Typography gutterBottom variant="h5" component="div">
+                                    <Typography sx={{fontWeight:"600",fontSize:"1.8rem"}} gutterBottom variant="h5" component="div">
                                     {data.websiteName}
                                     </Typography>
                                     
-                                    <Typography variant="body2" color="text.secondary">
+                                    <Typography sx={{fontSize:"1.2rem"}} variant="body2" color="black">
                                    {
                                         learn? <>
                                             {
-                                                data.details 
+                                                data?.detailsOne 
                                             }
-                                            <Button onClick={()=>readDetails(false,data.id)}>Minimize</Button>
+                                            
                                          </>:<>
                                             {
-                                            data.details.slice(0,150) 
+                                            data?.detailsOne?.slice(0,150) 
                                             }...
                                             <Button onClick={()=>readDetails(true,data.id)}>Read more</Button>
                                          </>
                                     } 
+                                    </Typography> 
                                     
-                                    </Typography>
-                                </CardContent>
-                                <CardActions>
-                                    <Button target="_blank" rel="noreferrer" href={`${data.clientCodeLink}`} size="small">Client Side Code</Button>
-                                    <Button target="_blank" rel="noreferrer" href={`${data.serverCodeLink}`} size="small">Server Side Code</Button>
-                                    <Button target="_blank" rel="noreferrer" href={`${data.liveSide}`} size="small">Live Side</Button>
+                                   {
+                                        learn? <>
+                                        {
+                                            data?.detailsTwo&&<Typography sx={{fontSize:"1.2rem",display:"block",pt:2}} variant="body2" color="black">
+                                            {data?.detailsTwo}
+                                            </Typography>
+                                        }
+                                        
+                                        {
+                                           data?.detailsThree&& <Typography sx={{fontSize:"1.2rem",display:"block",pt:2}} variant="body2" color="black">
+                                           {data?.detailsThree}
+                                          </Typography>
+                                        }
+                                        
+                                        {
+                                            data?.detailsFour&&<Typography sx={{fontSize:"1.2rem",display:"block",pt:2}} variant="body2" color="black">
+                                            {data?.detailsFour}
+                                            </Typography>
+                                        }
+                                        
+                                        {
+                                           data?.detailsFive && <Typography sx={{fontSize:"1.2rem",display:"block",pt:2}} variant="body2" color="black">
+                                           {data?.detailsFive}
+                                           </Typography> 
+                                        }
+                                        
+                                        
+                                            <Typography sx={{py:2,fontSize:"18px",fontWeight:"bold"}} variant="h6" gutterBottom component="div">
+                                            Technology: {data.technology}
+                                            </Typography>
+                                            <Button onClick={()=>readDetails(false,data.id)}>Minimize</Button>
+                                         </>:<>
+                                           
+                                         </>
+                                    } 
+                                    
+                                    
+                                    </CardContent>
+                                <CardActions style={{justifyContent:"space-evenly"}}>
+                                   
+                                    <Button target="_blank" rel="noreferrer" href={`${data?.clientCodeLink}`} size="small">Client Side Code</Button>
+                                    {
+                                        data?.serverCodeLink && <Button target="_blank" rel="noreferrer" href={`${data?.serverCodeLink}`} size="small">Server Side Code</Button>
+                                    }
+                                    
+                                    <Button target="_blank" rel="noreferrer" href={`${data?.liveSide}`} size="small">Live Side</Button>
                                 </CardActions>
                             </Card>
                         </Grid>

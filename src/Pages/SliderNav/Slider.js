@@ -91,15 +91,15 @@ const Slider = () => {
                 <Typography variant="h5" gutterBottom component="div" sx={{fontSize:"30px",mt:{xs:0,sm:15}}}>
                             Hello, <span style={{color:"#FE5205"}}>I'M Hanif</span>
                 </Typography>
-                <Typography variant="h4" gutterBottom component="div" sx={{pt:1}}>
+                <Typography variant="h4" gutterBottom component="div" sx={{pt:0}}>
                     MERN Stack Devloper
                 </Typography>
                 </Box>
-                <Typography variant="body2" gutterBottom component="div" sx={{pt:1,pb:2}}>
+                <Typography variant="body2" gutterBottom component="div" sx={{pt:1,pb:2,fontSize:"1.1rem"}}>
                 Hi, I am Mohammad Hanif. I am from Bangladesh. I have completed my web development course from Programming Hero. I am expert in HTML5, CSS3, Bootstrap 5, JavaScript + ES6, React, React Router, React Bootstrap, Material Ui and comfortable with Node js, Express js, MongoDB, Tailwind CSS, Firebase.
                 </Typography>
 
-                <Stack sx={{justifyContent:"start",mt:{xs:2,md:3},pb:20 }} spacing={1} direction="row">
+                <Stack sx={{justifyContent:"start",mt:{xs:1,md:2},pb:20 }} spacing={1} direction="row">
                     <Button sx={{fontSize:{xs:".9rem",md:"1.1rem"},px:{xs:1,md:3}, background:"#FE5205",
                     boxShadow: 3,
                     fontWeight: 500,

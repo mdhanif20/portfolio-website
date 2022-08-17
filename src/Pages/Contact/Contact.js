@@ -104,8 +104,9 @@ const Contact = () => {
                         Website
                         </Typography>
                         <Typography sx={{textAlign:"justify",fontSize:"18px"}} variant="body1" gutterBottom>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, doloremque.
+                        https://my-portfolio-c9993.web.app/
                         </Typography>
+                        <span style={{opacity:0}}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis ipsam necessitatibus cupiditate optio pariatur! </span>
                      </CardContent>
                     </Card>
                 </Grid>  

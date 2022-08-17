@@ -21,7 +21,6 @@ const useStyle = makeStyles({
     }
 })
 
-// fetch("https://calm-anchorage-79518.herokuapp.com/themes") 
 const Projects = () => {
     const classes = useStyle();
     const [themes,setThemes]= useState([]);
@@ -30,7 +29,7 @@ const Projects = () => {
         .then(res=>res.json())
         .then(data => setThemes(data))
     },[]);
-    console.log(themes)
+
     return (
         <Box style={{borderRadius:"0px",border:0,margin:0}} className={classes.scrollBar} sx={{background:"#1E2132"}}>
 
