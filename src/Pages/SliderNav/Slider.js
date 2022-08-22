@@ -1,11 +1,13 @@
 import React from 'react';
-import { Box, Container} from '@mui/material';
+import { Box } from '@mui/material';
 import Grid from '@mui/material/Grid';
 import { makeStyles } from '@mui/styles';
 import Typography from '@mui/material/Typography';
 import Stack from '@mui/material/Stack';
 import Button from '@mui/material/Button';
 import { Link } from 'react-router-dom';
+import img from "../../Images/img1.jpg";
+
 
 const useStyle = makeStyles({
     resumeButtom:{
@@ -99,7 +101,7 @@ const Slider = () => {
                 Hi, I am Mohammad Hanif. I am from Bangladesh. I have completed my web development course from Programming Hero. I am expert in HTML5, CSS3, Bootstrap 5, JavaScript + ES6, React, React Router, React Bootstrap, Material Ui and comfortable with Node js, Express js, MongoDB, Tailwind CSS, Firebase.
                 </Typography>
 
-                <Stack sx={{justifyContent:"start",mt:{xs:1,md:2},pb:20 }} spacing={1} direction="row">
+                <Stack sx={{justifyContent:"start",mt:{xs:1,md:1},pb:20 }} spacing={1} direction="row">
                     <Button sx={{fontSize:{xs:".9rem",md:"1.1rem"},px:{xs:1,md:3}, background:"#FE5205",
                     boxShadow: 3,
                     fontWeight: 500,
@@ -156,6 +158,7 @@ const Slider = () => {
                     
                 </Stack>
             </Grid>
+            {/* https://i.ibb.co/sH849xJ/hanif.jpg  */}
             <Grid item  xs={12} md={6} sx={{display:{xs:'none',md:"flex"},justifyContent: 'space-around',color:"#fff",mt:2,mb:8 }}>
                 <Box  sx={{ width:{xs:"90%",sm:"70%"},height:{xs:"90%",sm:"85%",marginTop:'50px'}}}>
                 <img
@@ -166,7 +169,7 @@ const Slider = () => {
                         padding: 4,
                         borderBottom: "2px solid #fff"
                     }} 
-                    src="https://i.ibb.co/sH849xJ/hanif.jpg"
+                    src="https://i.ibb.co/4PKRdwW/img1.jpg"
                     alt="" />
                 </Box>  
             </Grid>

@@ -30,11 +30,11 @@
     {
       "id": 3,
       "technology":"HTML, CSS3, Material Ui, Firebase, React, React-router, Node.js, Express.js, MongoDB ",
-      "detailsOne":"1.It's a fully responsive hospital management website. By using the register page users can register by giving their name, email and password or using the google sign-in method. And Can login in future using the login page.",
-      "detailsTwo":"2.On Home page have some hospital data about hospital information, doctor data, hospital service data etc.",
-      "detailsThree":"3.On appointment page users can take appointment of any date based on his requirement. There have a calendar users can choose date on this calendar and take appointment on this date.",
-      "detailsFour":"4.Users can contact with author by using contact page and can send emain by using contact page.",
-      "detailsFive":"5.On  deshboard page admin can add, update and delete  news in different types of news in different areas. Only admin can able to use this page after login. If you playing role as an admin please using this email  abc@gmail.com and password 123456.",
+      "detailsOne":"1.It's a fully responsive hospital management website. By using the register page users can register by giving their name, email and password or using the google sign-in method. And Can log in in future using the login page.",
+      "detailsTwo":"2.On the Home page have some hospital data about hospital information, doctor data, hospital service data etc.",
+      "detailsThree":"3.On the appointment page, users can take appointments on any date based on their requirements. There have a calendar user can choose a date on this calendar and take appointment on this date.",
+      "detailsFour":"4.Users can contact the author by using the contact page and can send emails by using the contact page.",
+      "detailsFive":"5.On the dashboard page, the admin can add, update and delete news in different types of news in different areas. Only the admin can able to use this page after login. If you playing a role as an admin please use this email  abc@gmail.com and password 123456.",
       "websiteName":"Apollo Hospital",
       "websiteImg": "https://i.ibb.co/sKHR0bY/hospital.png",
       "clientCodeLink": "https://github.com/mdhanif20/apollo-hospital",
@@ -43,30 +43,19 @@
     },
     {
       "id": 4,
-      "technology":"HTML, CSS3, Material Ui, React,",
-      "detailsOne":"1.It's a fully responsive animation details base website. ",
-      "detailsTwo":"2.Left sidebar showing ads.",
-      "detailsThree":"3.Provide hover effect effectively.",
-      "detailsFour":"4.Has been makeing a perfect design by using material Ui.",
-      "detailsFive":"",
-      "websiteName":"Codrops Animation",
-      "websiteImg": "https://i.ibb.co/vzjfCks/news3.png",
-      "clientCodeLink": "https://github.com/mdhanif20/codrops",
-      "liveSide": "https://62f91ce3e468240fcd16a743--competent-shannon-451e84.netlify.app/"
+      "technology":"HTML, CSS3, Bootstrap5, Firebase, React",
+      "detailsOne":"1. It's a fully responsive travel agency website design using HTML, CSS3, Bootstrap 5, Firebase, and React. User Can log in using email and password or the google sign-in method.",
+      "detailsTwo":"2. The Home page has a slider area, our services area, Popular Tours In This Year area and a footer area. On services, the area has our all services and a person can see details information there and there has a Booking button.",
+      "detailsThree":"3.On the booking page a person can book services and see booking information from a manage book page.",
+      "detailsFour":"4. The contact page has contact information.",
+      "websiteName":"Orna Travel Agency",
+      "websiteImg": "https://i.ibb.co/99FqGDF/orna.png",
+      "clientCodeLink": "https://github.com/mdhanif20/orna-travel-client-side",
+      "serverCodeLink": "https://github.com/mdhanif20/orna-travels-server",
+      "liveSide": "https://orna-travels.web.app/"
     },
     {
       "id": 5,
-      "technology":"HTML, CSS3, JavaScript",
-      "detailsOne":"1.It's a calculation price card for product. Made by using HTML,CSS and JavaScript.",
-      "detailsTwo":"2.There has different Memory, Storage, Choose your delivery policy option and changing price based on option and calculate total price in bottom.",
-      "detailsThree":"3.Using promo code buyers can take 20% discount. Promo code is 'stevekaku' and showing bottom in total price.",
-      "websiteName":"Mac Book Card",
-      "websiteImg": "https://i.ibb.co/JBDvML3/macbook.png",
-      "clientCodeLink": "https://github.com/mdhanif20/Mac-book-pro-js-shopping",
-      "liveSide": "https://romantic-lewin-mac-book-assignment-49aae4.netlify.app/"
-    },
-    {
-      "id": 6,
       "technology":"HTML, CSS3",
       "detailsOne":"It's a food shop base web page design by using HTML and CSS. There have a navbar, slide area, about details area and showing product in card.",
       "websiteName":"Food Shop Page",
@@ -74,14 +63,31 @@
       "clientCodeLink": "https://mdhanif20.github.io/assignment1_food-network/",
       "liveSide": "https://mdhanif20.github.io/assignment1_food-network/"
     },
+    
+    
+    {
+      "id": 6,
+      "technology":"HTML, CSS3, Bootstrap5, Firebase, React",
+      "detailsOne":"1.It's a fully responsive hospital website design using HTML, CSS3, Bootstrap 5, Firebase, and React. User Can log in using the google sign-in method.",
+      "detailsTwo":"2.The Home page has a slider area, our services area and a footer area. On services, the area has different types of services and a person can get details information by clicking the details button.",
+      "detailsThree":"3.The about pages give our hospital details information.",
+      "detailsFour":"4.The contact page has contact information.",
+      "websiteName":"Sab'a Sanabil Hospital ",
+      "websiteImg": "https://i.ibb.co/pv0GBYb/sabsa.png",
+      "clientCodeLink": "https://github.com/mdhanif20/sab-a-sanabil-hospital",
+      "liveSide": "https://sab-a-sanabill-hospital.web.app/"
+    },
     {
       "id": 7,
-      "technology":"HTML, CSS3",
-      "detailsOne":"It's a football team website single web page fully responsive design by using HTML and CSS. There have a slide area , team details card area and showing goal table data. ",
-      "websiteName":"Football Team Web Page",
-      "websiteImg": "https://i.ibb.co/qNTwWy4/football.png",
-      "clientCodeLink": "https://github.com/mdhanif20/My-assignment-football",
-      "liveSide": "https://mdhanif20.github.io/My-assignment-football/"
+      "technology":"HTML, CSS3, Bootstrap5, React",
+      "detailsOne":"1.It's a foreign language education website fully responsive design using HTML, CSS3, Bootstrap 5 and React.",
+      "detailsTwo":"2.There has a slider area and mentor area in the mentor area showing details about the mentor.",
+      "detailsThree":"3.In the language area offering our all courses and person can saw details by clicked details button. On contact, the area has contact info.",
+      "detailsFour":"4.The services page has all services. On about page gives our details information.",
+      "websiteName":"Foreign Language Education",
+      "websiteImg": "https://i.ibb.co/bdH1PX2/foreign.png",
+      "clientCodeLink": "https://github.com/mdhanif20/foreign-language",
+      "liveSide": "https://forien-language-education-react-website-quirky-ptolemy-e70cc8.netlify.app/"
     },
     {
       "id": 8,
@@ -94,6 +100,43 @@
     },
     {
       "id": 9,
+      "technology":"HTML, CSS3",
+      "detailsOne":"It's a football team website single web page fully responsive design by using HTML and CSS. There have a slide area , team details card area and showing goal table data. ",
+      "websiteName":"Football Team Web Page",
+      "websiteImg": "https://i.ibb.co/qNTwWy4/football.png",
+      "clientCodeLink": "https://github.com/mdhanif20/My-assignment-football",
+      "liveSide": "https://mdhanif20.github.io/My-assignment-football/"
+    },
+    {
+      "id": 10,
+      "technology":"HTML, CSS3, Material Ui, React,",
+      "detailsOne":"1.It's a fully responsive animation details base website. ",
+      "detailsTwo":"2.Left sidebar showing ads.",
+      "detailsThree":"3.Provide hover effect effectively.",
+      "detailsFour":"4.Has been makeing a perfect design by using material Ui.",
+      "websiteName":"Codrops Animation",
+      "websiteImg": "https://i.ibb.co/vzjfCks/news3.png",
+      "clientCodeLink": "https://github.com/mdhanif20/codrops",
+      "liveSide": "https://62f91ce3e468240fcd16a743--competent-shannon-451e84.netlify.app/"
+    },
+    {
+      "id": 11,
+      "technology":"HTML, CSS3, Bootstrap5, React",
+      "detailsOne":"1.It's a search product web page fully responsive design using HTML, CSS, Bootstrap 5 and JavaScript.",
+      "detailsTwo":"2. There has a search bar after searching any product this type of product loads at the bottom and shows product data with image.",
+      "detailsThree":"3.If the customer wants to see details of product information needs to click the Details button on the card and show details on the top.",
+      "detailsFour":"4.If customers click the 'add to cart ' button product price is added Calculation Cart and shows their total product, price,  Delivery-Charge, Total-Tax and show the bottom total price.",
+      "websiteName":"Freelancer Information",
+      "websiteImg": "https://i.ibb.co/DkWnRYm/Sc.png",
+      "clientCodeLink": "https://github.com/mdhanif20/freelancer-data",
+      "liveSide": "https://react-assign1-freelancinginco-calculation-hoover-e093.netlify.app/"
+    },
+
+    
+    
+    
+    {
+      "id": 12,
       "technology":"HTML, CSS3, Bootstrap5, JS",
       "detailsOne":"It's a search book web page fully responsive design by using HTML, CSS and JavaScript. There have a search bar after searching any book this types of book load in bottom and showing book details with image.",
       "websiteName":"Search Book Api",
@@ -102,7 +145,7 @@
       "liveSide": "https://search-books-focused-noyce-2c20a.netlify.app/"
     },
     {
-      "id": 10,
+      "id": 13,
       "technology":"HTML, CSS3, Bootstrap5, JS",
       "detailsOne":"1.It's a search product web page fully responsive design using HTML, CSS, Bootstrap 5 and JavaScript.",
       "detailsTwo":"2. There has a search bar after searching any product this type of product loads at the bottom and shows product data with image.",
@@ -114,15 +157,23 @@
       "liveSide": "https://iqra-online-shopping-store-spence-a0e915.netlify.app/"
     },
     {
-      "id": 11,
-      "technology":"HTML, CSS3, Bootstrap5, React",
-      "detailsOne":"1.It's a search product web page fully responsive design using HTML, CSS, Bootstrap 5 and JavaScript.",
-      "detailsTwo":"2. There has a search bar after searching any product this type of product loads at the bottom and shows product data with image.",
-      "detailsThree":"3.If the customer wants to see details of product information needs to click the Details button on the card and show details on the top.",
-      "detailsFour":"4.If customers click the 'add to cart ' button product price is added Calculation Cart and shows their total product, price,  Delivery-Charge, Total-Tax and show the bottom total price.",
-      "websiteName":"Freelancer Information",
-      "websiteImg": "https://i.ibb.co/z7nhznZ/shop1.png",
-      "clientCodeLink": "https://github.com/mdhanif20/freelancer-data",
-      "liveSide": "https://react-assign1-freelancinginco-calculation-hoover-e093.netlify.app/"
+      "id": 14,
+      "technology":"HTML, CSS3, JavaScript",
+      "detailsOne":"1.It's a calculation price card for product. Made by using HTML,CSS and JavaScript.",
+      "detailsTwo":"2.There has different Memory, Storage, Choose your delivery policy option and changing price based on option and calculate total price in bottom.",
+      "detailsThree":"3.Using promo code buyers can take 20% discount. Promo code is 'stevekaku' and showing bottom in total price.",
+      "websiteName":"Mac Book Card",
+      "websiteImg": "https://i.ibb.co/JBDvML3/macbook.png",
+      "clientCodeLink": "https://github.com/mdhanif20/Mac-book-pro-js-shopping",
+      "liveSide": "https://romantic-lewin-mac-book-assignment-49aae4.netlify.app/"
+    },
+    {
+      "id": 15,
+      "technology":"HTML, CSS3, Js",
+      "detailsOne":"It is a pin matcher made by HTML, CSS3 and JS.  Generate PIN button Click this button to generate PIN and type the PIN there.  After submit if pin match get message pin matched, if pin not match message get pin not matched please try again.",
+      "websiteName":"Pin Matcher",
+      "websiteImg": "https://i.ibb.co/KD1VFpG/code.png",
+      "clientCodeLink": "https://github.com/mdhanif20/pin-matcher",
+      "liveSide": "https://vibrant-volhard-798eb7.netlify.app/"
     }
   ]
