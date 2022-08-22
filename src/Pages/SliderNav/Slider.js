@@ -99,9 +99,10 @@ const Slider = () => {
                     backgroundColor: '#FE5205',
                     transform: "scale(1.1)"
                     } 
-                    }} href="https://drive.google.com/uc?export=download&id=1dc_vL62vUkQqzHTvTUkuvgAqMnuHcQw_"  variant="contained"> 
+                    }} href="https://drive.google.com/uc?export=download&id=1HyBg3P0ZL5sUTb6FXugYahxZ6hoIaOL-"  variant="contained"> 
                         Get Resume           
                     </Button>
+                    
                     <Button sx={{display:{xs:"none",md:"block"},fontSize:"1.1rem",
                     border: "2px solid #fff",
                     boxShadow: 3,
