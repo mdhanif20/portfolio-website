@@ -146,7 +146,7 @@ const Slider = () => {
             </Grid>
             {/* https://i.ibb.co/sH849xJ/hanif.jpg  */}
             <Grid item  xs={12} md={6} sx={{display:{xs:'none',md:"flex"},justifyContent: 'space-around',color:"#fff",mt:2,mb:8 }}>
-                <Box  sx={{ width:{xs:"90%",sm:"70%"},height:{xs:"90%",sm:"76%",marginTop:'50px'}}}>
+                <Box  sx={{ width:{xs:"90%",sm:"67%"},height:{xs:"90%",sm:"80%",marginTop:'50px'}}}>
                 <img
                     style={{
                         width: "100%",
