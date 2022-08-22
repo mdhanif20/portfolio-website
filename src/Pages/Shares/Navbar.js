@@ -9,7 +9,6 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import EmailIcon from '@mui/icons-material/Email';
-import img from "../../Images/hanif.jpg";
 import { makeStyles } from '@material-ui/core';
 
 

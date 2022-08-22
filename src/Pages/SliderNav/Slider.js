@@ -6,7 +6,6 @@ import Typography from '@mui/material/Typography';
 import Stack from '@mui/material/Stack';
 import Button from '@mui/material/Button';
 import { Link } from 'react-router-dom';
-import img from "../../Images/img1.jpg";
 
 
 const useStyle = makeStyles({
@@ -15,13 +14,7 @@ const useStyle = makeStyles({
         boxShadow: 3,
         fontWeight: 500,
         py:1, borderRadius: 20,
-        position: "revert",
-       /*  transition: ".4s",
-        '&:hover': {
-                    color:"#fff",
-                    backgroundColor: '#CB0001',
-                    transform: "scale(1.1)"
-                    } */
+        position: "revert"
     },
     scrollBar:{
         overflow:"scroll",
@@ -45,14 +38,7 @@ const useStyle = makeStyles({
      position: "revert",
      padding:"1px , 3px",
     borderRadius: 20,
-   /*   transition: ".4s",
-     
-     '&:hover': {
-        border: "2px solid #fff",
-        borderColor:"#fff",
-         backgroundColor: '#161824',
-         transform: "scale(1.1)"
-    } */},
+   },
     hiremeAncor:{
         textDecoration:"none",
         color:"#fff",
@@ -82,7 +68,7 @@ const Slider = () => {
                         padding: 4,
                         borderBottom: "2px solid #fff"
                     }} 
-                    src="https://i.ibb.co/sH849xJ/hanif.jpg"
+                    src="https://i.ibb.co/4PKRdwW/img1.jpg"
                     alt="" />
                 </Box>                   
             </Grid>
@@ -160,7 +146,7 @@ const Slider = () => {
             </Grid>
             {/* https://i.ibb.co/sH849xJ/hanif.jpg  */}
             <Grid item  xs={12} md={6} sx={{display:{xs:'none',md:"flex"},justifyContent: 'space-around',color:"#fff",mt:2,mb:8 }}>
-                <Box  sx={{ width:{xs:"90%",sm:"70%"},height:{xs:"90%",sm:"85%",marginTop:'50px'}}}>
+                <Box  sx={{ width:{xs:"90%",sm:"70%"},height:{xs:"90%",sm:"76%",marginTop:'50px'}}}>
                 <img
                     style={{
                         width: "100%",

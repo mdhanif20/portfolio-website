@@ -4,7 +4,6 @@ import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
-import Avatar from '@mui/material/Avatar';
 import PhoneEnabledIcon from '@mui/icons-material/PhoneEnabled';
 import FmdGoodIcon from '@mui/icons-material/FmdGood';
 import EmailIcon from '@mui/icons-material/Email';

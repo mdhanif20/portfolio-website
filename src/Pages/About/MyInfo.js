@@ -48,12 +48,7 @@ const MyInfo = () => {
                     fontWeight: 500,
                     py:1, borderRadius: 20,
                     position: "revert",
-                    /* transition: ".4s",
-                    '&:hover': {
-                    color:"#fff",
-                    backgroundColor: '#FE5205',
-                    transform: "scale(1.1)"
-                    } */
+                 
                     }} href="https://drive.google.com/u/0/uc?id=1jQC4ny1KU-hYF2V97a_yrABWZKIZZKdJ&export=download"  variant="contained"> 
                         My Resume           
                     </Button>
@@ -64,13 +59,7 @@ const MyInfo = () => {
                     position: "revert",
                     padding:"1px , 3px",
                     borderRadius: 20,
-                    /* transition: ".4s",
-                    '&:hover': {
-                    border: "2px solid #fff",
-                    borderColor:"#fff",
-                     backgroundColor: '#161824',
-                     transform: "scale(1.1)"
-                } */
+                    
                 }} 
                     variant="outlined" to="#contactArea"> 
                     <a style={{textDecoration:"none",color:"#fff",
@@ -85,13 +74,7 @@ const MyInfo = () => {
                     position: "revert",
                     padding:"1px , 3px",
                     borderRadius: 20,
-                   /*  transition: ".4s",
-                    '&:hover': {
-                    border: "2px solid #fff",
-                    borderColor:"#fff",
-                     backgroundColor: '#161824',
-                     transform: "scale(1.1)"
-                }   */  
+                    
                 }} 
                     variant="outlined" to="#contactArea"> 
                     <a style={{textDecoration:"none",color:"#fff",fontSize:'.9rem'}} href="#contactArea">Hire Me</a>

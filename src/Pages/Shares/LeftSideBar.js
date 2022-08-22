@@ -1,9 +1,3 @@
-import { Logout, Settings} from '@mui/icons-material';
-import AppsIcon from '@mui/icons-material/Apps';
-import CalendarTodayIcon from '@mui/icons-material/CalendarToday'; 
-import PeopleIcon from '@mui/icons-material/People';
-import AssignmentIcon from '@mui/icons-material/Assignment';
-import ManageAccountsIcon from '@mui/icons-material/ManageAccounts';
 import { Container } from '@mui/material';
 import Typography from '@mui/material/Typography';
 import { makeStyles } from '@material-ui/core';
@@ -16,9 +10,7 @@ import WorkIcon from '@mui/icons-material/Work';
 import WaterDamageIcon from '@mui/icons-material/WaterDamage';
 import PersonIcon from '@mui/icons-material/Person';
 import ForumIcon from '@mui/icons-material/Forum';
-import ContactsIcon from '@mui/icons-material/Contacts';
 import FileOpenIcon from '@mui/icons-material/FileOpen';
-import Stack from '@mui/material/Stack';
 
 
 const useStyle = makeStyles({
@@ -37,11 +29,6 @@ const useStyle = makeStyles({
         cursor:"pointer",
         border:'none',
         background:"transparent"
-        /* '&:hover':{
-            transform: 'scale(1.01)',
-            transition:".1s"
-        } */
-        
     },
     icon:{
         marginRight:"6px",
@@ -96,41 +83,6 @@ const useStyle = makeStyles({
         color:"#fff",
         zIndex:2
     }
-    /* ,
-    containerSmall:{
-        padding:"20px 5px", 
-        paddingBottom:".09px",
-        height:"98vh", 
-        position: "sticky",
-        color:'#fff',
-        top:0
-    },
-    textSmall:{
-        fontWeight:800,
-        border:"2px solid #FE5205", 
-        padding:"2px 16px",
-        borderRadius:"30px",
-        backgroundColor:"#1E2132",
-        marginLeft:"-100%",
-        opacity:0
-    },
-    itemSmall:{
-        display:"flex",
-        alignItems:"center",
-        marginBottom:"40px",
-        cursor:"pointer",
-       '&:hover $textSmall':{
-            marginLeft:"0",
-            opacity:1,
-            transition:".6s"
-        }
-        
-    },
-    
-    iconSmall:{
-        marginRight:"6px",
-    } */
-   
 })
  
 
@@ -139,7 +91,7 @@ const LeftSideBar = () => {
     const classes = useStyle();
 
     return (
-        // boxShadow:"-4px 1px 15px #101010 !important" 
+        
         <Box sx={{display:"flex",position:'fixed',marginTop:"55px", zIndex:1}}>
             <Box sx={{display:{xs:"none",sm:"none",md:"block"}}}>
             <Container style={{borderRight:"2px solid #232222"}} sx={{ bgcolor:"#1E2132",width:"180px",boxShadow:"-4px 1px 10px #101010 !important",borderRadius:"0px",border:"0px"}}

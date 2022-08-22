@@ -36,12 +36,6 @@ const useStyle = makeStyles({
         fontWeight: 500,
         py:1, borderRadius: 20,
         position: "revert",
-       /*  transition: ".4s",
-        '&:hover': {
-                    color:"#fff",
-                    backgroundColor: '#CB0001',
-                    transform: "scale(1.1)"
-                    } */
     }
 })
 

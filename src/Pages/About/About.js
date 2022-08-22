@@ -1,13 +1,12 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import Typography from '@mui/material/Typography';
-import { Box, Card, Container } from '@mui/material';
+import { Box, Container } from '@mui/material';
 import { makeStyles } from '@mui/styles';
 import Grid from '@mui/material/Grid';
 import AboutDetails from './AboutDetails';
 import Expertise from './../Skills/Expertise';
 import Confortable from './../Skills/Confortable';
 import MyInfo from './MyInfo';
-import img from "../../Images/hanif.jpg";
 
 const useStyle = makeStyles({
     contactHeader:{
