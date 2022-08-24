@@ -72,7 +72,7 @@ const EmailForm = () => {
                 </Box>
                 
                 <label className={classes.inputText} htmlFor="myEmail">To </label><br />
-                <input  style={{height:"auto"}} className={classes.inputArea} type="text" value='mdhanif115825@gmail.com' name="ownerEmail" /> <br />
+                <input  style={{height:"auto"}} className={classes.inputArea} type="text" value='mdhanif2921@gmail.com' name="ownerEmail" /> <br />
                
                 <textarea name="message" className={classes.textArea} placeholder='Write email...' id="" width="100%" style={{height:"35vh"}} rows="7"></textarea> <br />
                 <Button  sx={{
