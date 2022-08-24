@@ -102,13 +102,15 @@ const Slider = () => {
                     }} href="https://drive.google.com/uc?export=download&id=1e_Gn1Y03UScQs2C6ijEm0Ki0G1xUqFz9"  variant="contained"> 
                         Get Resume           
                     </Button>
-                    
+
+                    <Link style={{textDecoration:"none",color:"#fff"}} to="/contact">
                     <Button sx={{display:{xs:"none",md:"block"},fontSize:"1.1rem",
                     border: "2px solid #fff",
                     boxShadow: 3,
                     fontWeight: 500,
                     position: "revert",
                     padding:"1px , 3px",
+                    color:"#fff",
                     borderRadius: 20,
                      transition: ".4s",
                     '&:hover': {
@@ -116,13 +118,14 @@ const Slider = () => {
                     borderColor:"#fff",
                      backgroundColor: '#161824',
                      transform: "scale(1.1)" 
-                } 
-                }} 
+                    } 
+                    }} 
                     variant="outlined" to="#contactArea"> 
-                    <Link style={{textDecoration:"none",color:"#fff",
-                     
-                }} to="/contact">Hire Me</Link>
+                    Hire Me
                     </Button>
+                    </Link>
+
+                    <Link to="/contact" style={{textDecoration:"none",color:"#fff",fontSize:'.9rem'}}>
                     <Button  sx={{display:{xs:"block",md:"none"},
                     border: "2px solid #fff",
                     boxShadow: 3,
@@ -131,18 +134,20 @@ const Slider = () => {
                     position: "revert",
                     padding:"1px , 3px",
                     borderRadius: 20,
+                    color:"#fff",
                    transition: ".4s",
                     '&:hover': {
                     border: "2px solid #fff",
                     borderColor:"#fff",
                      backgroundColor: '#161824',
                      transform: "scale(1.1)" 
-                } 
-                }} 
+                    } 
+                    }} 
                     variant="outlined" to="#contactArea"> 
-                    <Link to="/contact" style={{textDecoration:"none",color:"#fff",fontSize:'.9rem'}} href="#contactArea">Hire Me</Link>
+                    Hire Me
                     </Button>
-                    
+                    </Link>
+
                 </Stack>
             </Grid>
             {/* https://i.ibb.co/sH849xJ/hanif.jpg  */}

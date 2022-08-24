@@ -4,6 +4,7 @@ import Typography from '@mui/material/Typography';
 import { Box} from '@mui/material';
 import Stack from '@mui/material/Stack';
 import Button from '@mui/material/Button';
+import { Link } from 'react-router-dom';
 
 const MyInfo = () => {
     return (
@@ -48,10 +49,16 @@ const MyInfo = () => {
                     fontWeight: 500,
                     py:1, borderRadius: 20,
                     position: "revert",
-                 
+                    '&:hover': {
+                        color:"#fff",
+                        backgroundColor: '#FE5205',
+                        transform: "scale(1.1)"
+                        } 
                     }} href="https://drive.google.com/u/0/uc?id=1jQC4ny1KU-hYF2V97a_yrABWZKIZZKdJ&export=download"  variant="contained"> 
                         My Resume           
                     </Button>
+
+                    <Link to="/contact" style={{textDecoration:"none"}}> 
                     <Button sx={{display:{xs:"none",md:"block"},fontSize:"1.1rem",
                     border: "2px solid #fff",
                     boxShadow: 3,
@@ -66,6 +73,9 @@ const MyInfo = () => {
                      
                 }} href="#contactArea">Hire Me</a>
                     </Button>
+                    </Link>
+
+                    <Link to="/contact" style={{textDecoration:"none"}}> 
                     <Button  sx={{display:{xs:"block",md:"none"},
                     border: "2px solid #fff",
                     boxShadow: 3,
@@ -79,7 +89,7 @@ const MyInfo = () => {
                     variant="outlined" to="#contactArea"> 
                     <a style={{textDecoration:"none",color:"#fff",fontSize:'.9rem'}} href="#contactArea">Hire Me</a>
                     </Button>
-                    
+                    </Link>
                 </Stack>
           </Box>
       </Grid>
