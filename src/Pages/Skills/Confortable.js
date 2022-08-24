@@ -29,7 +29,7 @@ const Confortable = () => {
  console.log(skills)
 
     return ( 
-        <Box sx={{py:{xs:1,sm:8}}}>
+        <Box sx={{py:{xs:1,sm:5}}}>
         <Typography sx={{color:"#fff",borderBottom:"2px solid #FE5205",width:"175px",mb:3}} variant="h5" gutterBottom component="div">
           CONFORTABLE
         </Typography>
