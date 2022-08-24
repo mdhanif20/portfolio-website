@@ -131,7 +131,7 @@ const LeftSideBar = () => {
                         </Link>
                     </Box>   
                     <Box style={{border:"none"}}  className={classes.item}>
-                        <Button href="https://drive.google.com/uc?export=download&id=1HyBg3P0ZL5sUTb6FXugYahxZ6hoIaOL-" sx={{ color: 'white', display: 'flex',padding:"6px 0px" }}>
+                        <Button href="https://drive.google.com/uc?export=download&id=1e_Gn1Y03UScQs2C6ijEm0Ki0G1xUqFz9" sx={{ color: 'white', display: 'flex',padding:"6px 0px" }}>
                         < FileOpenIcon  sx={{fontSize:"1.8rem"}} style={{background:"transparent",border:"none"}}  className={classes.icon}/>
                         <span className={classes.text}>Resume</span>
                         </Button> 
@@ -177,7 +177,7 @@ const LeftSideBar = () => {
                         </Link>
                     </Box>
                     <Box >
-                    <Button  href="https://drive.google.com/uc?export=download&id=1dc_vL62vUkQqzHTvTUkuvgAqMnuHcQw_" sx={{ color: 'white', display: 'flex',padding:"6px 0px" }}>
+                    <Button  href="https://drive.google.com/uc?export=download&id=1e_Gn1Y03UScQs2C6ijEm0Ki0G1xUqFz9" sx={{ color: 'white', display: 'flex',padding:"6px 0px" }}>
                         <Box className={classes.itemSmall}>
                         < FileOpenIcon sx={{marginLeft:{xs:0,sm:"-14px",md:0}}} style={{fontSize:"30px"}}  className={classes.iconSmall}/>
                         <Typography style={{fontWeight:400}}  className={classes.textSmall}>Resume</Typography>
