@@ -1,7 +1,7 @@
 [
     {
       "id": 1,
-      "technology":"HTML, CSS3, Material Ui, Firebase, React, React-router, Node.js, Express.js, MongoDB ",
+      "technology":"HTML, CSS3, Material Ui, Firebase, React js, React-router, Node.js, Express.js, MongoDB ",
       "detailsOne":"1.It's a fully responsive website for selling themes, domains and hosting. By using the register page users can register by giving their name, email and password or using the google sign-in method. And Can login in future using the login page.",
       "detailsTwo":"2.The home page has the 'Choose The Theme' area buyers can buy the theme by clicking 'Buy Now Button' and giving details information. The theme has some themes but if you click the 'see all theme' button website moved you to the theme page and you can see all themes.",
       "detailsThree":"3.The home page have 'storage area'.Buyers can select any types of storage and can purchased. On theme page have all themes and buyers can purchased any theme.On domain page buyer can purchases domain ass his demand and showing below different types of domain price.After loging people can use deshboard page.Users can saw his purchased details from deshboard.",
@@ -11,11 +11,11 @@
       "websiteImg": "https://i.ibb.co/bJhx82p/theme1.png",
       "clientCodeLink": "https://github.com/mdhanif20/theme-business-related-client-side",
       "serverCodeLink": "https://github.com/mdhanif20/theme-busness-server-side",
-      "liveSide": "https://theme-selling-website.web.app/"
+      "liveSide": "https://theme-selling-website.web.app/home"
     },
     {
       "id": 2,
-      "technology":"HTML, CSS3, Material Ui, Firebase, React, React-router, Node.js, Express.js, MongoDB ",
+      "technology":"HTML, CSS3, Material Ui, Firebase, React js, React-router, Node.js, Express.js, MongoDB ",
       "detailsOne":"1.It's a fully responsive news portal website. By using the register page users can register by giving their name, email and password or using the google sign-in method. And Can login in future using the login page.",
       "detailsTwo":"2.The home page has all types of updated news and the right sidebar has ads. Users can read all types of details news on the home page.",
       "detailsThree":"3.Different type of page has different specific types of news and the right sidebar has ads. The Bangladesh page has Bangladeshi news. The sports page has sports news. etc",
@@ -29,7 +29,7 @@
     },
     {
       "id": 3,
-      "technology":"HTML, CSS3, Material Ui, Firebase, React, React-router, Node.js, Express.js, MongoDB ",
+      "technology":"HTML, CSS3, Material Ui, Firebase, React js, React-router, Node.js, Express.js, MongoDB ",
       "detailsOne":"1.It's a fully responsive hospital management website. By using the register page users can register by giving their name, email and password or using the google sign-in method. And Can log in in future using the login page.",
       "detailsTwo":"2.On the Home page have some hospital data about hospital information, doctor data, hospital service data etc.",
       "detailsThree":"3.On the appointment page, users can take appointments on any date based on their requirements. There have a calendar user can choose a date on this calendar and take appointment on this date.",

@@ -61,13 +61,14 @@ const EmailForm = () => {
             </Typography>
             <form ref={form} action="" onSubmit={sendEmail}>
                 <Box sx={{display:{xs:"block",sm:"flex"},width:"100%"}}>
-                    <Box sx={{width:{xs:"100%",sm:"47%"}}}>
-                        <label className={classes.inputText} htmlFor="userEmail">Name</label><br />
-                        <input  style={{height:"auto"}}  name="user_name" type="text" className={classes.inputArea} placeholder='Your Name'/>
-                    </Box>
+                    
                     <Box sx={{width:{xs:"100%",sm:"47%"},pl:{xs:0,sm:1}}}>
                         <label className={classes.inputText} htmlFor="userEmail">Your Email </label><br />
                         <input  style={{height:"auto"}} type="email" className={classes.inputArea} placeholder='Your Email' name="user_email"/>
+                    </Box>
+                    <Box sx={{width:{xs:"100%",sm:"47%"}}}>
+                        <label className={classes.inputText} htmlFor="userEmail">Subject</label><br />
+                        <input  style={{height:"auto"}}  name="user_name" type="text" className={classes.inputArea} placeholder='Subject'/>
                     </Box>
                 </Box>
                 
