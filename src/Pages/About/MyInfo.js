@@ -54,7 +54,7 @@ const MyInfo = () => {
                         backgroundColor: '#FE5205',
                         transform: "scale(1.1)"
                         } 
-                    }} href="https://drive.google.com/uc?export=download&id=1rE5ZCp0BnEED4J8SknS_US412kgaiHOB"  variant="contained"> 
+                    }} href="https://drive.google.com/uc?export=download&id=1l_27-aVdY_pV_gwsmkUiay_kKpceIgy6"  variant="contained"> 
                         My Resume           
                     </Button>
                     
