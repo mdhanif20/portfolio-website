@@ -51,40 +51,35 @@ const Slider = () => {
     const classes = useStyle();
     return (
         
-            <Box  className={classes.scrollBar} sx={{p:5,bgcolor:"#1E2132",color:"#fff"}}>
+            <Box  className={classes.scrollBar} sx={{p:4,bgcolor:"#1E2132",color:"#fff"}}>
             <Grid container>
             <Grid item xs={12} md={6} className={classes.imageArea}  sx={{ display:{xs:'flex',md:"none"} ,
             justifyContent: 'space-around',
             color:"#fff",
-            mt:4,
-            mb:4}}>
+            mt:2,
+            mb:2}}>
                 <Box  sx={{ width:{xs:"90%",sm:"100%"},height:{xs:"90%",sm:"100%"}}}>
                 <img
                 className={classes.sliderImageForLittle}
                     style={{
-                        width: "100%",
-                        height: "100%",
-                        borderRadius: " 50%",
+                        width: "90%",
+                        height: "90%",
+                        borderRadius: " 5%",
                         padding: 4,
                         borderBottom: "2px solid #fff"
                     }} 
-                    src="https://i.ibb.co/4PKRdwW/img1.jpg"
+                    src="https://i.ibb.co/tw75pc6B/Mohammad-hanif.png"
                     alt="" />
                 </Box>                   
             </Grid>
 
 
             <Grid item sx={{pr:{xs:0,md:2}}} xs={12} md={6}>
-                <Box>
-                <Typography variant="h5" gutterBottom component="div" sx={{fontSize:"30px",mt:{xs:0,sm:15}}}>
-                            Hello, <span style={{color:"#FE5205"}}>I'M Hanif</span>
-                </Typography>
-                <Typography variant="h4" gutterBottom component="div" sx={{pt:0}}>
-                    MERN Stack Devloper
-                </Typography>
-                </Box>
-                <Typography variant="body2" gutterBottom component="div" sx={{pt:1,pb:2,fontSize:"1.1rem"}}>
-                Hi, I am Mohammad Hanif. I am from Bangladesh. I have completed my web development course from Programming Hero. I am expert in HTML5, CSS3, Bootstrap 5, JavaScript + ES6, React, React Router, React Bootstrap, Material Ui and comfortable with Node js, Express js, MongoDB, Tailwind CSS, Firebase.
+                
+                <Typography variant="body2" gutterBottom component="div" sx={{pt:1,pb:2,fontSize:"1.1rem", textAlign:'justify'}}>
+                 
+                  Hi, I am <span style={{color:"#FE5205", fontSize:"25px"}}>Mohammad Hanif</span>, a passionate and dedicated Food Engineering graduate from Gopalganj Science and Technology University (GSTU), Bangladesh, holding a CGPA of 3.72 out of 4.00. Through my academic studies and practical training, I have built a solid foundation in food quality control, safety management, and microbiological analysis. In addition to my core expertise, I have developed strong skills in data analysis using Python and full-stack web development through the MERN Stack. I aim to apply my technical, academic, and research knowledge to enhance productivity, ensure quality, and promote the development of safe, innovative, and sustainable food systems.
+                <br/> I have showcased my previous work, experiences, education, skills, certifications, and training programs on this website. Please explore the sections using the left sidebar to navigate through different pages and learn more about me. You can also download my CV for a detailed overview of my academic and professional background.
                 </Typography>
 
                 <Stack sx={{justifyContent:"start",mt:{xs:1,md:1},pb:20 }} spacing={1} direction="row">
@@ -152,16 +147,16 @@ const Slider = () => {
             </Grid>
 
             <Grid item  xs={12} md={6} sx={{display:{xs:'none',md:"flex"},justifyContent: 'space-around',color:"#fff",mt:2,mb:8 }}>
-                <Box  sx={{ width:{xs:"90%",sm:"67%"},height:{xs:"90%",sm:"80%",marginTop:'50px'}}}>
+                <Box  sx={{ width:{xs:"90%",sm:"67%"},height:{xs:"90%",sm:"80%"}}}>
                 <img
                     style={{
                         width: "100%",
                         height: "100%",
-                        borderRadius: " 50%",
-                        padding: 4,
+                        borderRadius: " 5%",
+                        padding: 1,
                         borderBottom: "2px solid #fff"
                     }} 
-                    src="https://i.ibb.co/4PKRdwW/img1.jpg"
+                    src="https://i.ibb.co/tw75pc6B/Mohammad-hanif.png"
                     alt="" />
                 </Box>  
             </Grid>

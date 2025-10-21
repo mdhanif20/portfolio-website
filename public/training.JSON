@@ -1,0 +1,72 @@
+[
+    {
+      "id": 1,
+      "type":"offline",
+      "CourseName":"Quality Control and Unit Operation in the Food Industry",
+      "Institution":"Training Institute for Chemical Industries (TICI, BCIC), Narsingdi, Bangladesh",
+      "Duration":"3 weeks (04/01/2025 – 23/01/2025)",
+      "CoreKnowledge":"",
+      "InstitutionImg": "https://i.ibb.co/bJhx82p/theme1.png",
+      "CertificateLink": "https://github.com/mdhanif20/theme-business-related-client-side"
+    },
+     {
+      "id": 2,
+      "type":"offline",
+      "CourseName":"",
+      "Institution":"",
+      "Duration":"",
+      "CoreKnowledge":"",
+      "InstitutionImg": "https://i.ibb.co/bJhx82p/theme1.png",
+      "CertificateLink": "https://github.com/mdhanif20/theme-business-related-client-side"
+    },
+     {
+      "id": 3,
+      "type":"offline",
+      "CourseName":"",
+      "Institution":"",
+      "Duration":"",
+      "CoreKnowledge":"",
+      "InstitutionImg": "https://i.ibb.co/bJhx82p/theme1.png",
+      "CertificateLink": "https://github.com/mdhanif20/theme-business-related-client-side"
+    },
+     {
+      "id": 4,
+      "type":"offline",
+      "CourseName":"",
+      "Institution":"",
+      "Duration":"",
+      "CoreKnowledge":"",
+      "InstitutionImg": "https://i.ibb.co/bJhx82p/theme1.png",
+      "CertificateLink": "https://github.com/mdhanif20/theme-business-related-client-side"
+    },
+     {
+      "id": 5,
+      "type":"offline",
+      "CourseName":"",
+      "Institution":"",
+      "Duration":"",
+      "CoreKnowledge":"",
+      "InstitutionImg": "https://i.ibb.co/bJhx82p/theme1.png",
+      "CertificateLink": "https://github.com/mdhanif20/theme-business-related-client-side"
+    },
+     {
+      "id": 6,
+      "type":"offline",
+      "CourseName":"",
+      "Institution":"",
+      "Duration":"",
+      "CoreKnowledge":"",
+      "InstitutionImg": "https://i.ibb.co/bJhx82p/theme1.png",
+      "CertificateLink": "https://github.com/mdhanif20/theme-business-related-client-side"
+    },
+     {
+      "id": 7,
+      "type":"offline",
+      "CourseName":"",
+      "Institution":"",
+      "Duration":"",
+      "CoreKnowledge":"",
+      "InstitutionImg": "https://i.ibb.co/bJhx82p/theme1.png",
+      "CertificateLink": "https://github.com/mdhanif20/theme-business-related-client-side"
+    }
+  ]
