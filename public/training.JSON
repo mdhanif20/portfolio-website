@@ -5,68 +5,88 @@
       "CourseName":"Quality Control and Unit Operation in the Food Industry",
       "Institution":"Training Institute for Chemical Industries (TICI, BCIC), Narsingdi, Bangladesh",
       "Duration":"3 weeks (04/01/2025 – 23/01/2025)",
-      "CoreKnowledge":"",
-      "InstitutionImg": "https://i.ibb.co/bJhx82p/theme1.png",
-      "CertificateLink": "https://github.com/mdhanif20/theme-business-related-client-side"
+      "CoreKnowledge":"This intensive training program provided hands-on experience in food quality control, industrial operations, and analytical techniques used in the food industry. I gained practical knowledge in proximate analysis of food, determination of DO, BOD, and COD in water, and testing of oil quality parameters (acid value, peroxide value, and saponification value). The training also covered food adulteration tests, estimation of vitamins, minerals, and antioxidants, and instrumental analysis using UV-Vis spectrophotometer, HPLC, GC, GC-MS, ICP-OES, and FTIR. Additionally, I learned about process automation and control through PLC, SCADA, and PID systems, as well as industrial safety and good laboratory practices.",
+      "InstitutionImg": "https://i.ibb.co.com/wh0HJc58/unnamed-3.jpg",
+      "InstitutionalLink": "https://tici.gov.bd/"
     },
-     {
+    {
       "id": 2,
       "type":"offline",
-      "CourseName":"",
-      "Institution":"",
-      "Duration":"",
-      "CoreKnowledge":"",
-      "InstitutionImg": "https://i.ibb.co/bJhx82p/theme1.png",
-      "CertificateLink": "https://github.com/mdhanif20/theme-business-related-client-side"
+      "CourseName":"Hands-on Training on Fruit Processing and Packaging (Mango, Jackfruit, Pineapple, Papaya, Banana",
+      "Institution":"WTO Cell, Ministry of Commerce & Dept. of Nutrition and Food Engineering (DIU), Dhaka",
+      "Duration":" 4 days (23/10/2022 – 26/10/2022)",
+      "CoreKnowledge":"During this training, I gained practical knowledge of fruit processing technology, preservation methods, hygienic handling, and packaging of tropical fruits such as mango, jackfruit, pineapple, papaya, and banana. The program covered key steps including fruit selection, cleaning, drying, and storage techniques, as well as the use of appropriate packaging materials to ensure product safety, quality, and extended shelf life.",
+      "InstitutionImg": "https://i.ibb.co.com/ZzffghfY/download-2.jpg",
+      "InstitutionalLink": "https://daffodilvarsity.edu.bd/"
     },
-     {
+    {
+      "id": 8,
+      "type":"Online",
+      "CourseName":"MERN Stack Web Development",
+      "Institution":"Programming Hero",
+      "Duration":"6 months",
+      "CoreKnowledge":"This training focused on full-stack web development using the MERN stack (MongoDB, Express.js, React, and Node.js). It covered front-end and back-end development, API creation, and database management. Participants learned to build responsive and interactive web applications using JavaScript, HTML, and CSS, along with user authentication via Firebase. The course also included project deployment and version control using GitHub, Netlify, and Heroku, providing practical experience in developing and hosting dynamic web projects.",
+      "InstitutionImg": "https://i.ibb.co.com/Xr2DbKdM/download-5.jpg",
+      "InstitutionalLink": "https://www.programming-hero.com/"
+    },
+    {
+      "id": 9,
+      "type":"Online",
+      "CourseName":"Research 360: From Concept to Publication",
+      "Institution":"GSTU Research and Higher Studies Society (GSTURHS)",
+      "Duration":"3 months (21/09/2023 – 21/12/2023)",
+      "CoreKnowledge":"This training provided comprehensive knowledge of research methodology and academic writing. It covered the fundamentals of research design, proposal preparation, data collection, and statistical analysis, enabling participants to plan and execute scientific studies effectively. The program also focused on academic writing skills, including structuring manuscripts, referencing, and avoiding plagiarism. Additionally, participants learned about the journal publication process, such as selecting appropriate journals, responding to reviewers, and preparing research papers for submission.",
+      "InstitutionImg": "https://i.ibb.co.com/G4nLhh5Q/22.jpg",
+      "InstitutionalLink": "https://www.facebook.com/BSMRSTURHS/"
+    },
+    {
       "id": 3,
       "type":"offline",
-      "CourseName":"",
-      "Institution":"",
-      "Duration":"",
-      "CoreKnowledge":"",
-      "InstitutionImg": "https://i.ibb.co/bJhx82p/theme1.png",
-      "CertificateLink": "https://github.com/mdhanif20/theme-business-related-client-side"
+      "CourseName":"Good Manufacturing Practices (GMP), HACCP & ISO 22000: Food Safety Management System",
+      "Institution":"Jashore University of Science and Technology (JUST) & Alcumus Bangladesh",
+      "Duration":"1 day (18/06/2025)",
+      "CoreKnowledge":"GMP and HACCP principles, ISO 22000 standards, food safety management, and hazard analysis.",
+      "InstitutionImg": "https://i.ibb.co.com/twWQdCch/images-2.jpg",
+      "InstitutionalLink": "https://just.edu.bd/"
     },
-     {
+    {
       "id": 4,
-      "type":"offline",
-      "CourseName":"",
-      "Institution":"",
-      "Duration":"",
-      "CoreKnowledge":"",
-      "InstitutionImg": "https://i.ibb.co/bJhx82p/theme1.png",
-      "CertificateLink": "https://github.com/mdhanif20/theme-business-related-client-side"
+      "type":"Online",
+      "CourseName":"Food Loss and Waste in Fish Value Chains",
+      "Institution":"Food and Agriculture Organization of the United Nations (FAO)",
+      "Duration":"2 weeks (10/04/2025)",
+      "CoreKnowledge":"This training focused on understanding and measuring food loss in fisheries, identifying key causes of post-harvest losses, and developing practical strategies to reduce waste across the supply chain. It also covered approaches to building sustainable fish value chains, improving handling, storage, and processing practices to enhance both food security and environmental sustainability in the fisheries sector.",
+      "InstitutionImg": "https://i.ibb.co.com/ymJF195z/download-3.jpg",
+      "InstitutionalLink": "https://www.fao.org/home/en"
     },
-     {
+    {
       "id": 5,
-      "type":"offline",
-      "CourseName":"",
-      "Institution":"",
-      "Duration":"",
-      "CoreKnowledge":"",
-      "InstitutionImg": "https://i.ibb.co/bJhx82p/theme1.png",
-      "CertificateLink": "https://github.com/mdhanif20/theme-business-related-client-side"
+      "type":"Online",
+      "CourseName":"Understanding Food Loss",
+      "Institution":"University of Reading & FOLOU",
+      "Duration":"2 weeks (2023)",
+      "CoreKnowledge":"This course provided a detailed understanding of **food loss measurement techniques**, the **environmental and economic impacts of food loss on sustainability**, and the use of **innovative tools and approaches** to reduce food waste across production, processing, and distribution stages. It emphasized creating more **efficient and sustainable food systems** through better resource management and loss prevention strategies.",
+      "InstitutionImg": "https://i.ibb.co.com/sdM9KcSD/download-4.jpg",
+      "InstitutionalLink": "https://www.reading.ac.uk/"
     },
-     {
+    {
       "id": 6,
-      "type":"offline",
-      "CourseName":"",
-      "Institution":"",
-      "Duration":"",
-      "CoreKnowledge":"",
-      "InstitutionImg": "https://i.ibb.co/bJhx82p/theme1.png",
-      "CertificateLink": "https://github.com/mdhanif20/theme-business-related-client-side"
+      "type":"Online",
+      "CourseName":"ISO 22000:2018 Awareness Course",
+      "Institution":"The Case HQ (Online)",
+      "Duration":"1 day (18/06/2025)",
+      "CoreKnowledge":"This course offered a comprehensive overview of the Food Safety Management System (FSMS), focusing on the principles and structure of ISO 22000. It covered topics such as food safety policy development, risk and hazard analysis, prerequisite programs (PRPs), and documentation requirements for certification. Participants also learned about the implementation and auditing process to ensure compliance with international food safety standards.",
+      "InstitutionImg": "https://i.ibb.co.com/zYQDtvM/download.png",
+      "InstitutionalLink": "https://thecasehq.com/?srsltid=AfmBOorf3VEWsKXxmB0K8h0tfnYDvnNejBU2DJXsRZemyIRJwe4h_Sdq"
     },
-     {
+    {
       "id": 7,
-      "type":"offline",
-      "CourseName":"",
-      "Institution":"",
-      "Duration":"",
-      "CoreKnowledge":"",
-      "InstitutionImg": "https://i.ibb.co/bJhx82p/theme1.png",
-      "CertificateLink": "https://github.com/mdhanif20/theme-business-related-client-side"
+      "type":"Online",
+      "CourseName":"Food Biochemistry",
+      "Institution":"Udemy",
+      "Duration":"1 day (18/06/2025)",
+      "CoreKnowledge":"This course provided a clear understanding of the biochemical composition of food, including carbohydrates, proteins, lipids, vitamins, and minerals. It focused on enzyme activity and their roles in food processing, as well as key metabolic pathways such as glycolysis, fermentation, and lipid oxidation. The training also highlighted how biochemical reactions affect food quality, nutrition, and shelf life during production and storage.",
+      "InstitutionImg": "https://i.ibb.co.com/TBYL640m/download-1.png",
+      "InstitutionalLink": "https://www.udemy.com/?srsltid=AfmBOoolOUky2YyRL7Nl3jQN8vK44iQfCeWJgEGiNIYJ5V3rkvZiHu28"
     }
   ]

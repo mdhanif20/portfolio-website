@@ -11,6 +11,7 @@ import Slider from './Pages/SliderNav/Slider';
 import Services from './Pages/Services/Services';
 import Contact from './Pages/Contact/Contact';
 import Projects from './Pages/Projects/Projects';
+import Trainings from './Pages/Training/Trainings';
 
 
 
@@ -25,6 +26,7 @@ function App() {
          <Route path="services" element={<Services  to="/about"/>} />
          <Route path="projects" element={<Projects to="/about"/>} />
          <Route path="contact" element={<Contact  to="/about"/>} />
+         <Route path="training" element={<Trainings  to="/training"/>} />
       </Route> 
     </Routes>
   </BrowserRouter>

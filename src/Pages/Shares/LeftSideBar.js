@@ -97,7 +97,7 @@ const LeftSideBar = () => {
             <Container style={{borderRight:"2px solid #232222"}} sx={{ bgcolor:"#1E2132",width:"180px",boxShadow:"-4px 1px 10px #101010 !important",borderRadius:"0px",border:"0px"}}
                  className={classes.container}>
              
-            <Box style={{border:"none"}}  className={classes.item}>
+                    <Box style={{border:"none"}}  className={classes.item}>
                     <Link to="/" style={{textDecoration:"none"}}>
                         <Button sx={{  color: 'white', display: 'flex',padding:"6px 0px"}}>
                         <WaterDamageIcon sx={{fontSize:"1.8rem"}} style={{background:"transparent",border:"none"}}  className={classes.icon}/>
@@ -113,6 +113,15 @@ const LeftSideBar = () => {
                         </Button> 
                     </Link>
                     </Box>  
+
+                    <Box style={{border:"none"}}  className={classes.item}>
+                    <Link to="/training" style={{textDecoration:"none"}}>
+                        <Button sx={{ color: 'white', display: 'flex',padding:"6px 0px" }}>
+                        <PersonIcon   sx={{fontSize:"1.8rem"}} style={{background:"transparent",border:"none"}}  className={classes.icon}/>
+                        <span className={classes.text}>Training</span>
+                        </Button> 
+                    </Link>
+                    </Box> 
                     
                     <Box style={{border:"none"}}  className={classes.item}>
                     <Link to="/services" style={{textDecoration:"none"}}>  
